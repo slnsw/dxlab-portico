@@ -1,0 +1,234 @@
+/**
+ * Styles for GAO exhibition.
+ */
+
+@import 'reset';
+
+/**
+ * Multi-inherit classes.
+ */
+
+@font-face {
+font-family: norwester;
+font-weight: normal;
+src: url("../../../font/norwester/norwester.ttf") format("opentype");
+}
+
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: "norwester", sans-serif;
+    font-style: normal;    
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    background-color: #333;
+    line-height: 1em;    
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    .row{
+        width: 100%;
+        height: 43%;
+        white-space: nowrap;         
+        .item{  
+            width: 1%;
+            overflow: hidden;
+            display: inline-block;
+            height: 100%;
+            position: relative;
+            .img{
+                height: 100%;
+                /* Enables hardware acceleration and prevents slight pixelation when images are transitioned. */
+                -webkit-transform: translate3d(0, 0, 0);                
+            }
+            .info{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                color: #000;
+                background-color: transparent;
+                font-size: 1.0em;
+                font-weight: 400;
+                letter-spacing: normal;
+                line-height: 1.2em;
+                -webkit-transition: all 2s ease;
+                -moz-transition: all 2s ease;
+                -o-transition: all 2s ease;
+                transition: all 2s ease;        
+                white-space: normal;
+                .icon{
+                    display: none;
+                    position: absolute;
+                    padding: 5px 5px 5px 0;
+                    bottom: 10px;
+                    left: 10px;
+                    img{
+                        width: 18px;
+                    }
+                }  
+                .text{
+                    margin: 0 0 0 38px;
+                    padding: 5px;
+                    display: inline-block;
+                    visibility: hidden;
+                    opacity: 0;
+                    -webkit-transition: all 2s ease;
+                    -moz-transition: all 2s ease;
+                    -o-transition: all 2s ease;
+                    transition: all 2s ease;                           
+                }                              
+            }
+            .info.active{
+                background-color: rgba(255, 255, 255, 0.7);
+            }
+            .info.active > .text{
+                visibility: visible;
+                opacity: 1;
+            }     
+        }
+    }
+    /* #middle row */
+    #middle{
+        position: relative;
+        height: 14%;      
+        .wrapper{
+            width: 100%; 
+            position: fixed;
+            text-align: center;    
+            height : inherit;
+            .inner-wrapper{
+                display: table;
+                width: 100%;
+                height: 100%;
+            }
+            .inner-wrapper:nth-child(2){
+                position: relative;
+                top: -100%;
+            }
+            h1{          
+                font-size: 3em;
+                letter-spacing: 0.3em;
+                font-family: "norwester", sans-serif; 
+                font-weight: normal;                
+                margin: 0 auto;
+                padding: 0 0 0 0.1em;
+                z-index: -1;
+                color: #fff;
+                line-height: 1em !important;
+                text-transform: uppercase;
+                display: table-cell;
+                vertical-align: middle;
+                background: url(../images/arrowup.png) 5% 0% no-repeat,
+                url(../images/arrowdown.png) 95% 0% no-repeat;
+                background-size: contain;              
+                -webkit-transition: all 2s ease;
+                -moz-transition: all 2s ease;
+                -o-transition: all 2s ease;
+                transition: all 2s ease;              
+                @media(min-width: 500px){    
+                    font-size: 2em;
+                }
+                @media(min-width: 670px){
+                    font-size: 4em;
+                }
+                @media(min-width: 1015px){   
+                    font-size: 4em;
+                }          
+                @media(min-width: 1125px){
+                    font-size: 6em;
+                }
+                @media(min-width: 1350px){
+                    font-size: 6em;               
+                }
+                @media(min-width: 1700px){   
+                    font-size: 6em;             
+                }        
+                @media(min-width: 1900px){   
+                    font-size: 8em;          
+                }             
+            }
+            h2{
+                font-size: 3em;
+                letter-spacing: 0.3em;
+                font-family: "norwester", sans-serif; 
+                font-weight: normal;                
+                margin: 0 auto;
+                padding: 0 0 0 0.1em;
+                z-index: -1;
+                color: #fff;
+                line-height: 1em !important;
+                text-transform: uppercase;
+                display: table-cell;
+                vertical-align: middle;
+                background-size: contain;                
+                -webkit-transition: all 2s ease;
+                -moz-transition: all 2s ease;
+                -o-transition: all 2s ease;
+                transition: all 2s ease;   
+                @media(min-width: 500px){    
+                    font-size: 2em;
+                }
+                @media(min-width: 670px){
+                    font-size: 4em;
+                }
+                @media(min-width: 1015px){   
+                    font-size: 4em;
+                }          
+                @media(min-width: 1125px){
+                    font-size: 6em;
+                }
+                @media(min-width: 1350px){
+                    font-size: 6em;               
+                }
+                @media(min-width: 1700px){   
+                    font-size: 6em;             
+                }        
+                @media(min-width: 1900px){   
+                    font-size: 8em;          
+                }                                   
+            }
+            h1,
+            h2{
+                opacity: 1;
+                visibility: visible;
+            }
+            h1.inactive,
+            h2.inactive{
+                opacity: 0;
+                visibility: hidden;
+            }
+            .snippet{
+                padding: 0 50px;                
+                font-size: 2em;
+                font-weight: normal;    
+                color: #fff;
+                display: block;
+                z-index: -1;
+                line-height: 1.2em;    
+                display: table-cell;
+                vertical-align: middle;     
+                white-space: normal;                           
+                -webkit-transition: all 2s ease;
+                -moz-transition: all 2s ease;
+                -o-transition: all 2s ease;
+                transition: all 2s ease;                               
+            }
+        }
+    }
+    #bottom{
+        .item{
+            .icon{
+                top: 10px;
+                bottom: auto;                        
+            }
+            .info{
+                top: 0;
+                bottom: auto;     
+            }
+        }
+    }
+}

@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection>
+<!--<item>
+<position>1</position>
+<image_no>M1.2</image_no>
+<building>Test gallery resolution</building>
+<location>2500px high 72ppi</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=447195 - IMAGE 45</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/resolution-test/macquarie-obelisk.jpg</media>
+</item>
+<item>
+<position>2</position>
+<image_no>M2.2</image_no>
+<building>Test gallery resolution</building>
+<location>2500px high, 72ppi</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=212972</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/resolution-test/armidale-gaol.jpg</media>
+</item>
+<item>
+<position>3</position>
+<image_no>M3.2</image_no>
+<building>Test gallery resolution</building>
+<location>2500px high, 72ppi</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=187168</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/resolution-test/walsh-bay-masterplan.jpg</media>
+</item>
+<item>
+<position>4</position>
+<image_no>M4.2</image_no>
+<building>Test gallery resolution</building>
+<location>2500px high, 72ppi</location>
+<period>1810s - 1820s</period>
+<date>1822</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=168847</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/resolution-test/cammeraygal-north-sydney.jpg</media>
+</item>-->
+<item>
+<position>1</position>
+<image_no>M1.2</image_no>
+<building>St Matthew's Church</building>
+<location>Windsor</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=447195 - IMAGE 45</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/st-matthews-windsor-1.jpg</media>
+</item>
+<item>
+<position>2</position>
+<image_no>M2.2</image_no>
+<building>St Matthew's Church</building>
+<location>Windsor</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=212972</thumbnail>
+<credit>SLNSW</credit>
+<snippet>In 1817 Gov. Macquarie placed  the rim of a Spanish dollar under the foundations declaring "God prosper St Matthew's Church".</snippet>
+<media>images-2/st-matthews-windsor-2.jpg</media>
+</item>
+<item>
+<position>3</position>
+<image_no>M3.2</image_no>
+<building>St Matthew's Church</building>
+<location>Windsor</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=187168</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/st-matthews-windsor-3.jpg</media>
+</item>
+<item>
+<position>4</position>
+<image_no>M4.2</image_no>
+<building>Windsor Courthouse</building>
+<location>Windsor</location>
+<period>1810s - 1820s</period>
+<date>1822</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=168847</thumbnail>
+<credit>SLNSW</credit>
+<snippet>A portrait of Gov. Macquarie was moved to the public gallery after having an egg thrown at it.</snippet>
+<media>images-2/courthouse-windsor.jpg</media>
+</item>
+<item>
+<position>5</position>
+<image_no>M5.2</image_no>
+<building>Windsor courthouse</building>
+<location>Windsor</location>
+<period>1810s - 1820s</period>
+<date>1822</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=447195 - IMAGE 54</thumbnail>
+<credit>Geoffrey Cremin</credit>
+<snippet></snippet>
+<media>images-2/windsor-courthouse.jpg</media>
+</item>
+<item>
+<position>6</position>
+<image_no>M6.2</image_no>
+<building>Berrima Courthouse</building>
+<location>Berrima</location>
+<period>1830s - 1840s</period>
+<date>1838</date>
+<architect>Office of Mortimer Lewis</architect>
+<thumbnail></thumbnail>
+<credit>Courtesy Destination Southern Highlands</credit>
+<snippet>The courthouse was sometimes used for dances, concerts and church services. </snippet>
+<media>images-2/berrima-courthouse-crop.jpg</media>
+</item>
+<item>
+<position>7</position>
+<image_no>M7.2</image_no>
+<building>Hartley Courthouse</building>
+<location>Hartley</location>
+<period>1830s - 1840s</period>
+<date>1837</date>
+<architect>Office of Mortimer Lewis</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/hartley-courthouse.jpg</media>
+</item>
+<item>
+<position>8</position>
+<image_no>M8.2</image_no>
+<building>Berrima Gaol</building>
+<location>Berrima</location>
+<period>1830s - 1840s</period>
+<date>1835</date>
+<architect>Office of Ambrose Hallen</architect>
+<thumbnail></thumbnail>
+<credit>Matilda via Wikimedia Commons</credit>
+<snippet></snippet>
+<media>images-2/berrima-gaol.jpg</media>
+</item>
+<item>
+<position>9</position>
+<image_no>M9.2</image_no>
+<building>Camden Courthouse</building>
+<location>Camden</location>
+<period>1850s - 1860s</period>
+<date>1859</date>
+<architect>Office of Alexander Dawson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/camden-courthouse.jpg</media>
+</item>
+<item>
+<position>10</position>
+<image_no>M10.2</image_no>
+<building>Picton Courthouse</building>
+<location>Picton</location>
+<period>1850s - 1860s</period>
+<date>1863</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/picton-courthouse.jpg</media>
+</item>
+<item>
+<position>11</position>
+<image_no>M11.2</image_no>
+<building>Victoria Bridge</building>
+<location>Maitland</location>
+<period>1850s - 1860s</period>
+<date>1851</date>
+<architect>Edmund Blackett</architect>
+<thumbnail>Illustrated Sydney News, http://trove.nla.gov.au/ndp/del/article/63613742</thumbnail>
+<credit>SLNSW</credit>
+<snippet>This bridge was replaced by an iron and steel bridge in 1896.</snippet>
+<media>images-2/victoria-bridge-maitland.jpg</media>
+</item>
+<item>
+<position>12</position>
+<image_no>M12.2</image_no>
+<building>Point Stephens Light</building>
+<location>Fingal Bay</location>
+<period>1850s - 1860s</period>
+<date>1862</date>
+<architect>Alexander Dawson</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=414123 - IMAGE 9</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/point-stephens-light.jpg</media>
+</item>
+<item>
+<position>13</position>
+<image_no>M13.2</image_no>
+<building>Mudgee Post Office</building>
+<location>Mudgee</location>
+<period>1850s - 1860s</period>
+<date>1862</date>
+<architect>Alexander Dawson</architect>
+<thumbnail> http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=73263 - IMAGE 2</thumbnail>
+<credit>SLNSW</credit>
+<snippet>The Post Office has had many alterations, including the colonnade and tower of 1902.</snippet>
+<media>images-2/mudgee-post-office.jpg</media>
+</item>
+<item>
+<position>14</position>
+<image_no>M14.2</image_no>
+<building>Armidale Gaol (demolished 1929)</building>
+<location>Armidale</location>
+<period>1850s - 1860s</period>
+<date>1863</date>
+<architect>Mortimer Lewis</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet>The College was built on the site of the demolished gaol, reusing some of the gaol bricks.</snippet>
+<media>images-2/armidale-gaol.jpg</media>
+</item>
+<item>
+<position>15</position>
+<image_no>M15.2</image_no>
+<building>Albury Courthouse</building>
+<location>Albury</location>
+<period>1850s - 1860s</period>
+<date>1860</date>
+<architect>Alexander Dawson</architect>
+<thumbnail></thumbnail>
+<credit>State Records</credit>
+<snippet></snippet>
+<media>images-2/albury-courthouse.jpg</media>
+</item>
+<item>
+<position>16</position>
+<image_no>M16.2</image_no>
+<building>Grenfell Courthouse</building>
+<location>Grenfell</location>
+<period>1870s - 1880s</period>
+<date>1871</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Matt Hansen</credit>
+<snippet>Grenfell is a town which came into existence as a result of a major goldrush in 1866.</snippet>
+<media>images-2/grenfell-courthouse.jpg</media>
+</item>
+<item>
+<position>17</position>
+<image_no>M17.2</image_no>
+<building>Newcastle Customs House</building>
+<location>Newcastle</location>
+<period>1870s - 1880s</period>
+<date>1877</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Shane Blue</credit>
+<snippet>Adapted for commercial use and now offering an elegant, contemporary dining experience.</snippet>
+<media>images-2/newcastle-customs-house.jpg</media>
+</item>
+<item>
+<position>18</position>
+<image_no>M18.2</image_no>
+<building>Bathurst Courthouse</building>
+<location>Bathurst</location>
+<period>1870s - 1880s</period>
+<date>1880</date>
+<architect>James Barnet</architect>
+<thumbnail> </thumbnail>
+<credit>Gary Rimmer</credit>
+<snippet></snippet>
+<media>images-2/bathurst-courthouse-detail.jpg</media>
+</item>
+<item>
+<position>19</position>
+<image_no>M19.2</image_no>
+<building>Lismore Courthouse</building>
+<location>Lismore</location>
+<period>1870s - 1880s</period>
+<date>1885</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Brett Boardman, courtesy GAO</credit>
+<snippet></snippet>
+<media>images-2/lismore-courthouse.jpg</media>
+</item>
+<item>
+<position>20</position>
+<image_no>M20.2</image_no>
+<building>Wilcannia Hospital</building>
+<location>Wilcannia</location>
+<period>1870s - 1880s</period>
+<date>1879</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The Hospital was revitalised in 1998 by Merrima,  the Aboriginal Design Service within GAO.</snippet>
+<media>images-2/wilcannia-hospital.jpg</media>
+</item>
+<item>
+<position>21</position>
+<image_no>M21.2</image_no>
+<building>Forbes Post Office</building>
+<location>Forbes</location>
+<period>1870s - 1880s</period>
+<date>1879</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Matt Hansen</credit>
+<snippet></snippet>
+<media>images-2/forbes-post-office.jpg</media>
+</item>
+<item>
+<position>22</position>
+<image_no>M22.2</image_no>
+<building>Goulburn Courthouse</building>
+<location>Goulburn</location>
+<period>1870s - 1880s</period>
+<date>1888</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Department of Juctice</credit>
+<snippet>Goulburn Courthouse retains its rare Victorian public garden.</snippet>
+<media>images-2/goulburn-courthouse.jpg</media>
+</item>
+<item>
+<position>23</position>
+<image_no>M23.2</image_no>
+<building>Maitland Post Office</building>
+<location>Maitland</location>
+<period>1870s - 1880s</period>
+<date>1881</date>
+<architect>James Barnet</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=369596</thumbnail>
+<credit>OZinOH via Flickr</credit>
+<snippet></snippet>
+<media>images-1/maitland-post-office.jpg</media>
+</item>
+<item>
+<position>24</position>
+<image_no>M24.2</image_no>
+<building>Hawkesbury Agricultural College</building>
+<location>Richmond</location>
+<period>1890s - 1900s</period>
+<date>1891</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=62934  - IMAGE 8</thumbnail>
+<credit></credit>
+<snippet>The first agricultural College in NSW. In 1989 the College became the University of Western Sydney, Hawkesbury.</snippet>
+<media>images-2/hawkesbury-agricultural-college.jpg</media>
+</item>
+<item>
+<position>25</position>
+<image_no>M25.2</image_no>
+<building>Experimental Farm (Wagga Wagga Agricultural Institute)</building>
+<location>Charles Sturt University Wagga Wagga Main Campus</location>
+<period>1890s - 1900s</period>
+<date>1892</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Charles Sturt University Regional Archives </credit>
+<snippet></snippet>
+<media>images-2/experimental-farm.jpg</media>
+</item>
+<item>
+<position>26</position>
+<image_no>M26.2</image_no>
+<building>Maitland Courthouse</building>
+<location>Maitland</location>
+<period>1890s - 1900s</period>
+<date>1895</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=317013</thumbnail>
+<credit>OZinOH via Flickr</credit>
+<snippet></snippet>
+<media>images-2/maitland-courthouse.jpg</media>
+</item>
+<item>
+<position>27</position>
+<image_no>M27.2</image_no>
+<building>Dining Hall, Bathurst Experiment Farm (now Ponton Theatre, Bathurst Campus, Charles Sturt University)</building>
+<location>Bathurst</location>
+<period>1890s - 1900s</period>
+<date>1893</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Charles Sturt University Regional Archives</credit>
+<snippet></snippet>
+<media>images-2/dining-hall-csu.jpg</media>
+</item>
+<item>
+<position>28</position>
+<image_no>M28.2</image_no>
+<building>Moree Lands Office</building>
+<location>Moree</location>
+<period>1890s - 1900s</period>
+<date>1894</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Shot By Jake, Courtesy Moree Plains Shire Council.</credit>
+<snippet>The timber &amp; corrugated iron building was raised in 1902 to avoid flood waters. The 1982 conservation by GAO received an AIA Award.</snippet>
+<media>images-2/moree-lands-office.jpg</media>
+</item>
+<item>
+<position>29</position>
+<image_no>M29.2</image_no>
+<building>Jenolan Caves House</building>
+<location>Jenolan Caves</location>
+<period>1890s - 1900s</period>
+<date>1898</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Jenolan Caves</credit>
+<snippet>Built by the Government to faciliate access and promote tourism in the region.</snippet>
+<media>images-2/jenolan-caves-house.jpg</media>
+</item>
+<item>
+<position>30</position>
+<image_no>M30.2</image_no>
+<building>Jenolan Caves House</building>
+<location>Jenolan Caves</location>
+<period>1890s - 1900s</period>
+<date>1898</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Jenolan Caves</credit>
+<snippet></snippet>
+<media>images-2/jenolan-caves-house-interior.jpg</media>
+</item>
+<item>
+<position>31</position>
+<image_no>M31.2</image_no>
+<building>Bett's Camp (old &amp; new)</building>
+<location>Mount Kosciusko</location>
+<period>1890s - 1900s</period>
+<date>1898, 1905</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=175630 &amp; http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=206739</thumbnail>
+<credit>SLNSW</credit>
+<snippet>Built in 1898 by the NSW Government Tourist Bureau, to support sight seeing and skiing. Demolished in the 1960s.</snippet>
+<media>images-2/betts-camp-kosciusko-2.jpg</media>
+</item>
+<item>
+<position>32</position>
+<image_no>M32.2</image_no>
+<building>Wagga Wagga Courthouse</building>
+<location>Wagga Wagga</location>
+<period>1890s - 1900s</period>
+<date>1902</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>OzinOH via Flickr</credit>
+<snippet></snippet>
+<media>images-2/wagga-wagga-courthouse.jpg</media>
+</item>
+<item>
+<position>33</position>
+<image_no>M33.2</image_no>
+<building>Bourke Courthouse</building>
+<location>Bourke</location>
+<period>1890s - 1900s</period>
+<date>1897</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>In 1862 the town's first court case - a bushranging charge - was conducted in the open air.</snippet>
+<media>images-2/bourke-courthouse.jpg</media>
+</item>
+<item>
+<position>34</position>
+<image_no>M34.2</image_no>
+<building>Bourke Lands Department (now Bourke Government Office Building)</building>
+<location>Bourke</location>
+<period>1890s - 1900s</period>
+<date>1898</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/bourke-lands-department.jpg</media>
+</item>
+<item>
+<position>35</position>
+<image_no>M35.2</image_no>
+<building>Bourke Courthouse (now Bourke Government Office Building) </building>
+<location>Bourke</location>
+<period>1890s - 1900s</period>
+<date>1898</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The site contains remnants of an early underground water storage system.</snippet>
+<media>images-2/bourke-government-office.jpg</media>
+</item>
+<item>
+<position>36</position>
+<image_no>M36.2</image_no>
+<building>Moree Courthouse</building>
+<location>Moree</location>
+<period>1890s - 1900s</period>
+<date>1900</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Shot By Jake, courtesy Moree Plains Shire Council</credit>
+<snippet></snippet>
+<media>images-2/moree-courthouse.jpg</media>
+</item>.jpg
+<item>
+<position>37</position>
+<image_no>M37.2</image_no>
+<building>Newcastle Post Office</building>
+<location>Newcastle</location>
+<period>1890s - 1900s</period>
+<date>1903</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Shane Blue</credit>
+<snippet>Following a land claim Newcastle Post Office is now owned by the Awabakal Local Aboriginal Land Council.</snippet>
+<media>images-2/newcastle-post-office-1.jpg</media>
+</item>
+<item>
+<position>38</position>
+<image_no>M38.2</image_no>
+<building>Yarrangobilly Caves House</building>
+<location>Yarrangobilly Caves </location>
+<period>1910s - 1920s</period>
+<date>1901</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=179364</thumbnail>
+<credit>SLNSW</credit>
+<snippet>In 1901, Yarrangobilly Caves House was the most popular resort in NSW.</snippet>
+<media>images-2/yarrangobilly-caves-house.jpg</media>
+</item>
+<item>
+<position>39</position>
+<image_no>M39.2</image_no>
+<building>Maitland Technical College (now MRAG)</building>
+<location>Maitland</location>
+<period>1910s - 1920s</period>
+<date>1910</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Maitland Regional Art Gallery</credit>
+<snippet></snippet>
+<media>images-2/maitland-technical-college.jpg</media>
+</item>
+<item>
+<position>40</position>
+<image_no>M40.2</image_no>
+<building>Maitland Technical College (now MRAG)</building>
+<location>Maitland</location>
+<period>1910s - 1920s</period>
+<date>1910</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Maitland Regional Art Gallery</credit>
+<snippet>The former technical college was converted into the Maitland Regional Art Gallery in 2010.</snippet>
+<media>images-2/maitland-regional-art-gallery.jpg</media>
+</item>
+<item>
+<position>41</position>
+<image_no>M41.2</image_no>
+<building>Peat Island</building>
+<location>Mooney mooney</location>
+<period>1910s - 1920s</period>
+<date>1911</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>William Newell, commisioned by NSW Dept of Ageing, Disability and Home Care (DADHC)</credit>
+<snippet>Originally estblished as an Assylum for Innebriates.</snippet>
+<media>images-2/peat-island.jpg</media>
+</item>
+<item>
+<position>42</position>
+<image_no>M42.2</image_no>
+<building>Hospital for the Insane (now Stockton Centre)</building>
+<location>Stockton</location>
+<period>1910s - 1920s</period>
+<date>1910</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=411796</thumbnail>
+<credit>William Newell, commisioned by NSW Dept of Ageing, Disability and Home Care (DADHC)</credit>
+<snippet></snippet>
+<media>images-2/stockton-insane-hospital.jpg</media>
+</item>
+<item>
+<position>43</position>
+<image_no>M43.2</image_no>
+<building>Avon Dam</building>
+<location></location>
+<period>1910s - 1920s</period>
+<date>1919</date>
+<architect>George McRae</architect>
+<thumbnail></thumbnail>
+<credit>Water NSW</credit>
+<snippet>The 72 metre high Dam holds water from a 140 squ. km catchment, forming a lake of 1,055 ha.</snippet>
+<media>images-2/avon-dam.jpg</media>
+</item>
+<item>
+<position>44</position>
+<image_no>M44.2</image_no>
+<building>Cordeaux Dam</building>
+<location>Cordeaux</location>
+<period>1910s - 1920s</period>
+<date>1918</date>
+<architect>George McRae</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=223700</thumbnail>
+<credit>SLNSW</credit>
+<snippet>Massive Egyptian style stone gateways guard the entrance to the dam wall.</snippet>
+<media>images-2/cordeaux-dam.jpg</media>
+</item>
+<item>
+<position>45</position>
+<image_no>M45.2</image_no>
+<building>Armidale Teacher's College (now UNE Heritage Centre)</building>
+<location>Armidale</location>
+<period>1910s - 1920s</period>
+<date>1928</date>
+<architect>Richard McDonald Seymour Wells</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet>Built to train country teachers, it is  surrounded by a fine 1930s garden.</snippet>
+<media>images-2/armidale-teacher-college.jpg</media>
+</item>
+<item>
+<position>46</position>
+<image_no>M46.2</image_no>
+<building>Bloomfield Hospital</building>
+<location>Orange</location>
+<period>1910s - 1920s</period>
+<date>1923-1931</date>
+<architect>Walter Liberty Vernon, George McRae</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>A village-like  plan demonstrates a humane method for treating the mentally ill, in accordance with the philosophies of Manning and  Sinclair.</snippet>
+<media>images-2/bloomfield-hospital.jpg</media>
+</item>
+<item>
+<position>47</position>
+<image_no>M47.2</image_no>
+<building>Quirindi Courthouse</building>
+<location>Quirindi</location>
+<period>1930s - 1940s</period>
+<date>1930</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>Matt Hansen</credit>
+<snippet>The Quirindi Courthouse was constructed in 1930, replacing an earlier weatherboard courthouse dating from 1883 that burnt down.</snippet>
+<media>images-2/quirindi-courthouse.jpg</media>
+</item>
+<item>
+<position>48</position>
+<image_no>M48.2</image_no>
+<building>Lismore Police Station (former)</building>
+<location>Lismore</location>
+<period>1930s - 1940s</period>
+<date>1935</date>
+<architect>Edwin Smith</architect>
+<thumbnail></thumbnail>
+<credit>Brett Boardman, Courtesy GAO</credit>
+<snippet></snippet>
+<media>images-2/lismore-police-station.jpg</media>
+</item>
+<item>
+<position>49</position>
+<image_no>M49.2</image_no>
+<building>Leeton Hospital</building>
+<location>Leeton</location>
+<period>1930s - 1940s</period>
+<date>1942</date>
+<architect>Cobden Parkes</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=213257</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/leeton-hospital.jpg</media>
+</item>
+<item>
+<position>50</position>
+<image_no>M50.2</image_no>
+<building>Yanco Agricultural High School</building>
+<location>Yanco</location>
+<period>1930s - 1940s</period>
+<date>1930s</date>
+<architect>Edwin Smith</architect>
+<thumbnail>SLNSW - http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=191011</thumbnail>
+<credit>SLNSW</credit>
+<snippet>Harry Rembert was the project architect for this major site, preparing the masterplan in 1934, and designing most of the buildings on the campus.</snippet>
+<media>images-2/yanco-agricultural-high-school.jpg</media>
+</item>
+<item>
+<position>51</position>
+<image_no>M51.2</image_no>
+<building>Mary White College</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1958</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet>Strongly influenced by Danish University architecture particularly the University of Aarhus  (arch. C. F. Moller).</snippet>
+<media>images-2/mary-white-college.jpg</media>
+</item>
+<item>
+<position>52</position>
+<image_no>M52.2</image_no>
+<building>Mary White College</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1958</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet>Farmer was criticised for the lack of design input from women; however it was originally to be a mens' college.</snippet>
+<media>images-2/mary-white-college-interior.jpg</media>
+</item>
+<item>
+<position>53</position>
+<image_no>M53.2</image_no>
+<building>Dixson Library</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1961</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet></snippet>
+<media>images-2/dixson-library-une.jpg</media>
+</item>
+<item>
+<position>54</position>
+<image_no>M54.2</image_no>
+<building>Agricultural Economics</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1964</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet>Farmer recalls "The delight and pride" he felt when he saw the building complete.</snippet>
+<media>images-2/agricultural-economics.jpg</media>
+</item>
+<item>
+<position>55</position>
+<image_no>M55.2</image_no>
+<building>Earle Page College</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1967</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet></snippet>
+<media>images-2/earle-page-college.jpg</media>
+</item>
+<item>
+<position>56</position>
+<image_no>M56.2</image_no>
+<building>Faculty of Arts</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1968</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet></snippet>
+<media>images-2/faculty-of-arts-une.jpg</media>
+</item>
+<item>
+<position>57</position>
+<image_no>M57.2</image_no>
+<building>Robb College</building>
+<location>University of New England, Armidale</location>
+<period>1950s - 1960s</period>
+<date>1964</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet>Farmer recalled "Robb College was, I think, the best of the buildings, apart from Mary White, done under my control."</snippet>
+<media>images-2/robb-college-une.jpg</media>
+</item>
+<item>
+<position>58</position>
+<image_no>M58.2</image_no>
+<building>Lake Cargelligo Courthouse</building>
+<location>Lake Cargelligo</location>
+<period>1950s - 1960s</period>
+<date>1950</date>
+<architect>Parkes</architect>
+<thumbnail></thumbnail>
+<credit>Matt Hansen</credit>
+<snippet></snippet>
+<media>images-2/lake-cargelligo-courthouse.jpg</media>
+</item>
+<item>
+<position>59</position>
+<image_no>M59.2</image_no>
+<building>Wee Waa Police Station</building>
+<location>Wee Waa</location>
+<period>1950s - 1960s</period>
+<date>1969</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>Aussie Towns</credit>
+<snippet></snippet>
+<media>images-2/wee-waa-police-station.jpg</media>
+</item>
+<item>
+<position>60</position>
+<image_no>M60.2</image_no>
+<building>Dining Hall  Library, Mitchell College of advanced Education (now Learning Commons, Charles Sturt University)</building>
+<location>Bathurst</location>
+<period>1950s - 1960s</period>
+<date>1969</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>Charles Sturt University</credit>
+<snippet></snippet>
+<media>images-2/mitchell-college.jpg</media>
+</item>
+<item>
+<position>61</position>
+<image_no>M61.2</image_no>
+<building>Giraffe House, Western Plains Zoo</building>
+<location>Dubbo</location>
+<period>1970s - 1980s</period>
+<date>1977</date>
+<architect>Weatherburn</architect>
+<thumbnail></thumbnail>
+<credit>Taronga Conservation Society Australia</credit>
+<snippet></snippet>
+<media>images-2/giraffe-house-western-plains-zoo.jpg</media>
+</item>
+<item>
+<position>62</position>
+<image_no>M62.2</image_no>
+<building>Riverina College of Advanced Education (now Charles Sturt University)</building>
+<location>Wagga Wagga</location>
+<period>1970s - 1980s</period>
+<date>1970</date>
+<architect>Edward (Ted) Herbert Farmer, Geoffrey Phillip (Peter) Webber, Charles Percy Weatherburn, John Whyte (Ian ) Thomson</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=270101</thumbnail>
+<credit>Charles Sturt University</credit>
+<snippet>The campus dates to 1892 with the establishment of the Wagga Experiment Farm.</snippet>
+<media>images-2/riverina-college.jpg</media>
+</item>
+<item>
+<position>63</position>
+<image_no>M63.2</image_no>
+<building>Orange Agricultural College (now Charles Sturt University)</building>
+<location>Orange</location>
+<period>1970s - 1980s</period>
+<date>1970</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=270102</thumbnail>
+<credit>Charles Sturt University Regional Archives</credit>
+<snippet>The building was a centre for practical training in agricultural until the course was amalgamated at Wagga in 2015.</snippet>
+<media>images-2/orange-agricultural-college.jpg</media>
+</item>
+<item>
+<position>64</position>
+<image_no>M64.2</image_no>
+<building>Bini Shells</building>
+<location>NSW</location>
+<period>1970s - 1980s</period>
+<date>1976</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>DFSI</credit>
+<snippet>The structural system was developed by Dr Dante Bini in the 1960s who built 1600 shells in 23 countries.</snippet>
+<media>images-2/bini-shells.jpg</media>
+</item>
+<item>
+<position>65</position>
+<image_no>M65.2</image_no>
+<building>University of New England (further expansion)</building>
+<location>Armidale</location>
+<period>1970s - 1980s</period>
+<date>1978</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>University of New England Heritage Centre</credit>
+<snippet></snippet>
+<media>images-2/faculty-of-arts-une.jpg</media>
+</item>
+<item>
+<position>66</position>
+<image_no>M66.2</image_no>
+<building>Grafton Police Station</building>
+<location>Grafton</location>
+<period>1970s - 1980s</period>
+<date>1973</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>Megan Rowe</credit>
+<snippet></snippet>
+<media>images-2/grafton-police-station.jpg</media>
+</item>
+<item>
+<position>67</position>
+<image_no>M67.2</image_no>
+<building>Newcastle College of Advanced Education (now Hunter Building, University of Newcastle)</building>
+<location>Callaghan</location>
+<period>1970s - 1980s</period>
+<date>1974</date>
+<architect>Peter Webber</architect>
+<thumbnail></thumbnail>
+<credit>Cultural Collections, UON Library, University of Newcastle</credit>
+<snippet></snippet>
+<media>images-2/newcastle-college-advanced-ed.jpg</media>
+</item>
+<item>
+<position>68</position>
+<image_no>M68.2</image_no>
+<building>Veterinary Building, Western Plains Zoo</building>
+<location>Dubbo</location>
+<period>1970s - 1980s</period>
+<date>1977</date>
+<architect>Charles Weatherburn</architect>
+<thumbnail></thumbnail>
+<credit>Taronga Conservation Society Australia</credit>
+<snippet></snippet>
+<media>images-2/vet-building-western-plains-zoo.jpg</media>
+</item>
+<item>
+<position>69</position>
+<image_no>M69.2</image_no>
+<building>Cheetah House, Western Plains Zoo</building>
+<location>Dubbo</location>
+<period>1970s - 1980s</period>
+<date>1977</date>
+<architect>Charles Weatherburn</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=318754</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/wild-dogs-enclosure-wpz.jpg</media>
+</item>
+<item>
+<position>70</position>
+<image_no>M70.2</image_no>
+<building>Newcastle Police Centre</building>
+<location>Newcastle</location>
+<period>1970s - 1980s</period>
+<date>1982</date>
+<architect>Ian Thomson</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=319284</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-2/newcastle-police-centre.jpg</media>
+</item>
+<item>
+<position>71</position>
+<image_no>M71.2</image_no>
+<building>Burrendong National Fitness Camp (now Lake Burrendong Sport and Recreation Centre)</building>
+<location>Lake Burrendong</location>
+<period>1970s - 1980s</period>
+<date>1973</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>NSW Office of Sport</credit>
+<snippet></snippet>
+<media>images-2/burrendong-national-fitness-camp.jpg</media>
+</item>
+<item>
+<position>72</position>
+<image_no>M72.2</image_no>
+<building>Newcastle State Office Building</building>
+<location>Newcastle</location>
+<period>1970s - 1980s</period>
+<date>1983</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>OZinOH</credit>
+<snippet></snippet>
+<media>images-2/newcastle-state-office.jpg</media>
+</item>
+<item>
+<position>73</position>
+<image_no>M73.2</image_no>
+<building>Albury Courthouse</building>
+<location>Albury</location>
+<period>1970s - 1980s</period>
+<date>1985</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>Department of Justice</credit>
+<snippet></snippet>
+<media>images-2/albury-courthouse-2.jpg</media>
+</item>
+<item>
+<position>74</position>
+<image_no>M74.2</image_no>
+<building>Girrawaa Creative Work Centre, Bathurst Correctional Centre</building>
+<location>Bathurst</location>
+<period>1990s - 2000s</period>
+<date>1997</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Established to break down the barriers to opportunities for Aboriginal Australians.</snippet>
+<media>images-2/girrawaa-creative-centre.jpg</media>
+</item>
+<item>
+<position>75</position>
+<image_no>M75.2</image_no>
+<building>Education Centre, western Plains Zoo</building>
+<location>Dubbo</location>
+<period>1990s - 2000s</period>
+<date>1999</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/education-centre-wpz.jpg</media>
+</item>
+<item>
+<position>76</position>
+<image_no>M76.2</image_no>
+<building>Toronto Courthouse</building>
+<location>Toronto</location>
+<period>1990s - 2000s</period>
+<date>2001</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The first court house procured in over ten years representing a new wave of Court House design.</snippet>
+<media>images-2/toronto-courthouse.jpg</media>
+</item>
+<item>
+<position>77</position>
+<image_no>M77.2</image_no>
+<building>The National Environment Centre, TAFE NSW Riverina Institute</building>
+<location>Thurgoona</location>
+<period>1990s - 2000s</period>
+<date>2002</date>
+<architect>Chris Johnson</architect>
+<thumbnail>TBC </thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/national-environment-centre.jpg</media>
+</item>
+<item>
+<position>78</position>
+<image_no>M78.2</image_no>
+<building>Wilcannia Hospital</building>
+<location>Wilcannia</location>
+<period>1990s - 2000s</period>
+<date>2002</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/wilcannia-hospital-2.jpg</media>
+</item>
+<item>
+<position>79</position>
+<image_no>M79.2</image_no>
+<building>Hume Dam (masterplan, landscape design &amp; illumination)</building>
+<location>Albury</location>
+<period>1990s - 2000s</period>
+<date>2004</date>
+<architect>Johnson</architect>
+<thumbnail>TBC </thumbnail>
+<credit>GAO</credit>
+<snippet>The Dam Wall provides spetacular views for photogrpahy and general recreation.</snippet>
+<media>images-2/hume-dam.jpg</media>
+</item>
+<item>
+<position>80</position>
+<image_no>M80.2</image_no>
+<building>Lithgow Government Offices</building>
+<location>Lithgow</location>
+<period>1990s - 2000s</period>
+<date>2004</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/lithgow-gov-offices.jpg</media>
+</item>
+<item>
+<position>81</position>
+<image_no>M81.2</image_no>
+<building>Lismore Police Station</building>
+<location>Lismore</location>
+<period>1990s - 2000s</period>
+<date>2008</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/lismore-police-station.jpg</media>
+</item>
+<item>
+<position>82</position>
+<image_no>M82.2</image_no>
+<building>National Parks and Wildlife Service Office Building</building>
+<location>Narooma</location>
+<period>1990s - 2000s</period>
+<date>2008</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/npws-narooma.jpg</media>
+</item>
+<item>
+<position>83</position>
+<image_no>M83.2</image_no>
+<building>Hunter Children's Court</building>
+<location>Broadmeadow</location>
+<period>1990s - 2000s</period>
+<date>2006</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The external landscaped mound at the front of the Court provides a quiet space, and conceptually reinforces the notions of justice, equality and the recognition of this areas' indigenous heritage.</snippet>
+<media>images-2/hunter-children-court.jpg</media>
+</item>
+<item>
+<position>84</position>
+<image_no>M84.2</image_no>
+<building>Bathurst TAFE Stage 6</building>
+<location>Broadmeadow</location>
+<period>1990s - 2000s</period>
+<date>2006</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The final stage of development at Bathurst TAFE created a central hub for the campus, with an art gallery as well.</snippet>
+<media>images-2/bathurst-tafe.jpg</media>
+</item>
+<item>
+<position>85</position>
+<image_no>M85.2</image_no>
+<building>Port Macquarie Foreshore Masterplan</building>
+<location>Port Macquarie</location>
+<period>1990s - 2000s</period>
+<date>2008</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/port-macquarie-foreshore.jpg</media>
+</item>
+<item>
+<position>86</position>
+<image_no>M86.2</image_no>
+<building>Orana Juvenile Justice Centre</building>
+<location>Dubbo</location>
+<period>1990s - 2000s</period>
+<date>1999</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Innovative use of rammed earth</snippet>
+<media>images-2/orana-juvenile-justice.jpg</media>
+</item>
+<item>
+<position>87</position>
+<image_no>M87.2</image_no>
+<building>Warrumbungle NPWS PhotoVoltaic System</building>
+<location>Coonabarabran</location>
+<period>2010s - 2020s</period>
+<date>2011</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The unique habitat and landscape provides a fitting location for locating a photovoltaic (PV) solar power system that feeds renewable energy into the visitor’s centre.</snippet>
+<media>images-2/warrumbungle-npws-solar.jpg</media>
+</item>
+<item>
+<position>88</position>
+<image_no>M88.2</image_no>
+<building>McCabe Park Masterplan</building>
+<location>Wollongong</location>
+<period>2010s - 2020s</period>
+<date>2011</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>Tim Throsby, for GAO</credit>
+<snippet>A innovative ESD project for a major park in Wollongong CBD including a Youth Centre, regional adventure playground, skate park and a café.</snippet>
+<media>images-2/mccabe-park-masterplan.jpg</media>
+</item>
+<item>
+<position>89</position>
+<image_no>M89.2</image_no>
+<building>Sustainability Centre, Tamworth TAFE</building>
+<location>Tamworth</location>
+<period>2010s - 2020s</period>
+<date>2011</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-2/sustainability-centre.jpg</media>
+</item>
+<item>
+<position>90</position>
+<image_no>M90.2</image_no>
+<building>Orange Integrated Cultural Precinct &amp; Civic Precinct Masperplan</building>
+<location>Orange</location>
+<period>2010s - 2020s</period>
+<date>2010</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-2/riverina-juvenile-justice-centre.jpg</media>
+</item>
+<item>
+<position>91</position>
+<image_no>M91.2</image_no>
+<building>Newcastle City Hall Façade Conservation</building>
+<location>Newcastle</location>
+<period>2010s - 2020s</period>
+<date>2010-</date>
+<architect>Peter Mould, Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The 1929 City Hall is undergoing important conservation works</snippet>
+<media>images-2/newcastle-city-hall.gif</media>
+</item>
+<item>
+<position>92</position>
+<image_no>M92.2</image_no>
+<building>Upper Canal Heritage Advice</building>
+<location>Avon Dam to Prospect  Reservoir</location>
+<period>2010s - 2020s</period>
+<date>ongoing</date>
+<architect>Peter Mould, Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The Upper Canal comprises 64 kilometres of tunnels,
+canals and aqueducts constructed in the late 19th century to provide water foir the growing colony.</snippet>
+<media>images-2/upper-canal-heritage-advice.jpg</media>
+</item>
+<item>
+<position>93</position>
+<image_no>M93.2</image_no>
+<building>Teacher Housing</building>
+<location>Broken Hill</location>
+<period>2010s - 2020s</period>
+<date>2011</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-2/teacher-housing.jpg</media>
+</item>
+<item>
+<position>94</position>
+<image_no>M94.2</image_no>
+<building>Broken Hill Heritage City - Living Museum and Perfect Light CBD Renewal Project</building>
+<location>Broken Hill</location>
+<period>2010s - 2020s</period>
+<date>2015</date>
+<architect>Peter Poulet (in association with Allen Jack+Cottier and Electrolight)</architect>
+<thumbnail></thumbnail>
+<credit>Electrolight, courtesy GAO</credit>
+<snippet>This project focusses on restoring Argent Street to its rightful place in the social fabric of the nation</snippet>
+<media>images-2/broken-hill-renewal.jpg</media>
+</item>
+<item>
+<position>95</position>
+<image_no>M95.2</image_no>
+<building>Winanga-Li Aboriginal Child and Family Centre </building>
+<location>Gunnedah</location>
+<period>2010s - 2020s</period>
+<date>2013</date>
+<architect>Peter Poulet</architect>
+<thumbnail>TBC </thumbnail>
+<credit>Brett Boardman, courtesy GAO</credit>
+<snippet>One of a suite of versatile Aboriginal family health and childcare centres with strong cultural references resulting from strong collaboration with the community. </snippet>
+<media>images-2/winanga-li-gunnedah.jpg</media>
+</item>
+<item>
+<position>96</position>
+<image_no>M96.2</image_no>
+<building>Dhirraway Dhaarun Aboriginal Family and Childcare Centre </building>
+<location>Brewarrina</location>
+<period>2010s - 2020s</period>
+<date>2013</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit>Brett Boardman, courtesy GAO</credit>
+<snippet></snippet>
+<media>images-2/dhirraway-dhaarun.jpg</media>
+</item>
+<item>
+<position>97</position>
+<image_no>M97.2</image_no>
+<building>Cullunghutti Aboriginal Family and Childcare Centre </building>
+<location>Nowra</location>
+<period>2010s - 2020s</period>
+<date>2014</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit>Brett Boardman, courtesy GAO</credit>
+<snippet></snippet>
+<media>images-2/cullunghutti.jpg</media>
+</item>
+<item>
+<position>98</position>
+<image_no>M98.2</image_no>
+<building>Crown Street Mall</building>
+<location>Wollongong</location>
+<period>2010s - 2020s</period>
+<date>2014</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-2/crown-street-mall.jpg</media>
+</item>
+<item>
+<position>99</position>
+<image_no>M99.2</image_no>
+<building>Crown Street Mall</building>
+<location>Wollongong</location>
+<period>2010s - 2020s</period>
+<date>2014</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>Winner of the prestiguous 2014 Lloyd Rees Award for Urabn Design. A "flexible and durable place for people which stretches 360 metres through the city".</snippet>
+<media>images-2/crown-street-mall-2.jpg</media>
+</item>
+<item>
+<position>100</position>
+<image_no>M100.2</image_no>
+<building>Point Clare Public School </building>
+<location>Point Clare</location>
+<period>2010s - 2020s</period>
+<date>2015</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>How does a school contribute to the liveability of a dense inner city community? What role does it have in telling the story of a place and reconnecting separated communities?</snippet>
+<media>images-2/point-clare-public-school.jpg</media>
+</item>
+</collection>

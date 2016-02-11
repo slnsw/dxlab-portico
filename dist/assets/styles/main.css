@@ -1,0 +1,291 @@
+/**
+ * Styles for GAO exhibition.
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Multi-inherit classes.
+ */
+@font-face {
+  font-family: norwester;
+  font-weight: normal;
+  src: url("../../../font/norwester/norwester.ttf") format("opentype");
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "norwester", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  background-color: #333;
+  line-height: 1em;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  /* #middle row */
+}
+#container .row {
+  width: 100%;
+  height: 43%;
+  white-space: nowrap;
+}
+#container .row .item {
+  width: 1%;
+  overflow: hidden;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+#container .row .item .img {
+  height: 100%;
+  /* Enables hardware acceleration and prevents slight pixelation when images are transitioned. */
+  -webkit-transform: translate3d(0, 0, 0);
+}
+#container .row .item .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #000;
+  background-color: transparent;
+  font-size: 1.0em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.2em;
+  transition: all 2s ease;
+  white-space: normal;
+}
+#container .row .item .info .icon {
+  display: none;
+  position: absolute;
+  padding: 5px 5px 5px 0;
+  bottom: 10px;
+  left: 10px;
+}
+#container .row .item .info .icon img {
+  width: 18px;
+}
+#container .row .item .info .text {
+  margin: 0 0 0 38px;
+  padding: 5px;
+  display: inline-block;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s ease;
+}
+#container .row .item .info.active {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#container .row .item .info.active > .text {
+  visibility: visible;
+  opacity: 1;
+}
+#container #middle {
+  position: relative;
+  height: 14%;
+}
+#container #middle .wrapper {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  height: inherit;
+}
+#container #middle .wrapper .inner-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+#container #middle .wrapper .inner-wrapper:nth-child(2) {
+  position: relative;
+  top: -100%;
+}
+#container #middle .wrapper h1 {
+  font-size: 3em;
+  letter-spacing: 0.3em;
+  font-family: "norwester", sans-serif;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 0 0 0 0.1em;
+  z-index: -1;
+  color: #fff;
+  line-height: 1em !important;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+  background: url(../images/arrowup.png) 5% 0% no-repeat, url(../images/arrowdown.png) 95% 0% no-repeat;
+  background-size: contain;
+  transition: all 2s ease;
+}
+@media (min-width: 500px) {
+  #container #middle .wrapper h1 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 670px) {
+  #container #middle .wrapper h1 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1015px) {
+  #container #middle .wrapper h1 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1125px) {
+  #container #middle .wrapper h1 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1350px) {
+  #container #middle .wrapper h1 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1700px) {
+  #container #middle .wrapper h1 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1900px) {
+  #container #middle .wrapper h1 {
+    font-size: 8em;
+  }
+}
+#container #middle .wrapper h2 {
+  font-size: 3em;
+  letter-spacing: 0.3em;
+  font-family: "norwester", sans-serif;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 0 0 0 0.1em;
+  z-index: -1;
+  color: #fff;
+  line-height: 1em !important;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+  background-size: contain;
+  transition: all 2s ease;
+}
+@media (min-width: 500px) {
+  #container #middle .wrapper h2 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 670px) {
+  #container #middle .wrapper h2 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1015px) {
+  #container #middle .wrapper h2 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1125px) {
+  #container #middle .wrapper h2 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1350px) {
+  #container #middle .wrapper h2 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1700px) {
+  #container #middle .wrapper h2 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 1900px) {
+  #container #middle .wrapper h2 {
+    font-size: 8em;
+  }
+}
+#container #middle .wrapper h1,
+#container #middle .wrapper h2 {
+  opacity: 1;
+  visibility: visible;
+}
+#container #middle .wrapper h1.inactive,
+#container #middle .wrapper h2.inactive {
+  opacity: 0;
+  visibility: hidden;
+}
+#container #middle .wrapper .snippet {
+  padding: 0 50px;
+  font-size: 2em;
+  font-weight: normal;
+  color: #fff;
+  display: block;
+  z-index: -1;
+  line-height: 1.2em;
+  display: table-cell;
+  vertical-align: middle;
+  white-space: normal;
+  transition: all 2s ease;
+}
+#container #bottom .item .icon {
+  top: 10px;
+  bottom: auto;
+}
+#container #bottom .item .info {
+  top: 0;
+  bottom: auto;
+}

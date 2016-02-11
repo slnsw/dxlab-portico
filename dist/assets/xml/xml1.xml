@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection>
+<!--<item>
+<position>1</position>
+<image_no>M1.1</image_no>
+<building>Test web resolution</building>
+<location>1150px high, 144ppi</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=404768</thumbnail>
+<credit>SLNSW</credit>
+<snippet>Test web resolution.</snippet>
+<media>images-1/macquarie-obelisk.jpg</media>
+</item>
+<item>
+<position>2</position>
+<image_no>M2.1</image_no>
+<building>Test web resolution</building>
+<location>1150px high, 144ppi</location>
+<period>1810s - 1820s</period>
+<date>1818</date>
+<architect>Francis Greenway</architect>
+<thumbnail></thumbnail>
+<credit>City of Sydney</credit>
+<snippet></snippet>
+<media>images-2/armidale-gaol.jpg</media>
+</item>
+<item>
+<position>3</position>
+<image_no>M3.1</image_no>
+<building>Test web resolution</building>
+<location>1150px high, 144ppi</location>
+<period>1810s - 1820s</period>
+<date>1824</date>
+<architect>Francis Greenway</architect>
+<thumbnail></thumbnail>
+<credit>DFSI</credit>
+<snippet></snippet>
+<media>images-1/walsh-bay-masterplan.jpg</media>
+</item>
+<item>
+<position>4</position>
+<image_no>M4.1</image_no>
+<building>Test web resolution</building>
+<location>1150px high, 144ppi</location>
+<period>1810s - 1820s</period>
+<date>1817</date>
+<architect>Francis Greenway</architect>
+<thumbnail></thumbnail>
+<credit>Sydney Living Museums</credit>
+<snippet></snippet>
+<media>images-1/cammeraygal-north-sydney.jpg</media>
+</item>-->
+<item>
+<position>1</position>
+<image_no>M1.1</image_no>
+<building>Fort Macquarie</building>
+<location>Bennelong Point Sydney</location>
+<period>1810s - 1820s</period>
+<date>1821</date>
+<architect>Francis Francis Greenway</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=404768</thumbnail>
+<credit>SLNSW</credit>
+<snippet> The fort stood on a reef and was accessed from Bennelong Point via a small bridge.</snippet>
+<media>images-1/fort-macquarie-bennelong-pt.jpg</media>
+</item>
+<item>
+<position>2</position>
+<image_no>M2.1</image_no>
+<building>Macquarie Obelisk</building>
+<location>Macquarie Place, Sydney</location>
+<period>1810s - 1820s</period>
+<date>1818</date>
+<architect>Francis Greenway</architect>
+<thumbnail></thumbnail>
+<credit>City of Sydney</credit>
+<snippet></snippet>
+<media>images-1/macquarie-obelisk.jpg</media>
+</item>
+<item>
+<position>3</position>
+<image_no>M3.1</image_no>
+<building>St James Church</building>
+<location>Queens Square, Sydney</location>
+<period>1810s - 1820s</period>
+<date>1824</date>
+<architect>Francis Greenway</architect>
+<thumbnail></thumbnail>
+<credit>DFSI</credit>
+<snippet>By the 1880s St James was in disrepair. External fabric was conserved by Varney Parkes in 1894 including a new spire.</snippet>
+<media>images-1/st-james-church.jpg</media>
+</item>
+<item>
+<position>4</position>
+<image_no>M4.1</image_no>
+<building>Hyde Park Barracks</building>
+<location>Queens Square, Sydney</location>
+<period>1810s - 1820s</period>
+<date>1817</date>
+<architect>Francis Greenway</architect>
+<thumbnail></thumbnail>
+<credit>Douglas Riley for Sydney Living Museums, 2015</credit>
+<snippet></snippet>
+<media>images-1/hyde-park-barracks.jpg</media>
+</item>
+<item>
+<position>5</position>
+<image_no>M5.1</image_no>
+<building>King street Courthouse (Supreme Court)</building>
+<location>King Street, Sydney</location>
+<period>1810s - 1820s</period>
+<date>1829</date>
+<architect>Francis Greenway</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=836375 - IMAGE 57</thumbnail>
+<credit>SLNSW</credit>
+<snippet>The Greenway building has been much altered including addition of the 1868 arcade by GA James Barnet.</snippet>
+<media>images-1/supreme-court-king-st.jpg</media>
+</item>
+<item>
+<position>6</position>
+<image_no>M6.1</image_no>
+<building>Kings School (Heritage Branch, OEH)</building>
+<location>Parramatta</location>
+<period>1830s - 1840s</period>
+<date>1836</date>
+<architect>Office of Mortimer Lewis</architect>
+<thumbnail></thumbnail>
+<credit>Nathanael Hughes, courtesy  Office of Environment and Heritage, Heritage Division</credit>
+<snippet></snippet>
+<media>images-1/kings-school.jpg</media>
+</item>
+<item>
+<position>7</position>
+<image_no>M7.1</image_no>
+<building>Tarban Creek Lunatic Asylum (now Gladesville Hospital)</building>
+<location>Gladesville</location>
+<period>1830s - 1840s</period>
+<date>1839</date>
+<architect>Office of Mortimer Lewis</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=168049</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/insane-asylum.jpg</media>
+</item>
+<item>
+<position>8</position>
+<image_no>M8.1</image_no>
+<building>Darlinghurst Gaol (National Arts Building)</building>
+<location>Darlinghurst</location>
+<period>1830s - 1840s</period>
+<date>1841</date>
+<architect>Office of Mortimer Lewis</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Darlinghurst Gaol was the site 79 executions over time.</snippet>
+<media>images-1/national-arts-bldg.jpg</media>
+</item>
+<item>
+<position>9</position>
+<image_no>M9.1</image_no>
+<building>Abattoirs</building>
+<location>Glebe Island</location>
+<period>1850s - 1860s</period>
+<date>1854</date>
+<architect>Office of Edmund Blacket</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=442753 - IMAGE 27</thumbnail>
+<credit>SLNSW</credit>
+<snippet>The abbatoirs existed on Glebe Island (now part of Pyrmont) from the 1830s until 1915. The abattoir attracted related smelly industries and contributed to the noxious pollution of the Balckwattle. </snippet>
+<media>images-1/glebe-island-abattoirs.jpg</media>
+</item>
+<item>
+<position>10</position>
+<image_no>M10.1</image_no>
+<building>Australian Museum</building>
+<location>College Street Sydney</location>
+<period>1850s - 1860s</period>
+<date>1857</date>
+<architect>Offices of Mortimer Lewis, James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Established with the aim of procuring ‘many rare and curious specimens of Natural History’.</snippet>
+<media>images-1/aus-museum.jpg</media>
+</item>
+<item>
+<position>11</position>
+<image_no>M11.1</image_no>
+<building>Sydney Observatory</building>
+<location>Observatory Hill</location>
+<period>1850s - 1860s</period>
+<date>1858</date>
+<architect>William Weaver</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=412644</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/sydney-observatory.jpg</media>
+</item>
+<item>
+<position>12</position>
+<image_no>M12.1</image_no>
+<building>Hornby Lighthouse</building>
+<location>Watsons Bay</location>
+<period>1850s - 1860s</period>
+<date>1858</date>
+<architect>Alexander Dawson</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=414123 - IMAGE 1</thumbnail>
+<credit>SLNSW</credit>
+<snippet>The Lighthouse was built in 1858 following the wrecking of the Dunbar.</snippet>
+<media>images-1/hornby-lighthouse.jpg</media>
+</item>
+<item>
+<position>13</position>
+<image_no>M13.1</image_no>
+<building>Mortuary Station</building>
+<location>Rookwood Necropolis, Lidcombe (now Ainslie, ACT)</location>
+<period>1850s - 1860s</period>
+<date>1868</date>
+<architect>James James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet></snippet>
+<media>images-1/mortuary-station-1.jpg</media>
+</item>
+<item>
+<position>14</position>
+<image_no>M14.1</image_no>
+<building>Mortuary Station</building>
+<location>Redfern</location>
+<period>1850s - 1860s</period>
+<date>1868</date>
+<architect>James James Barnet</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=420926 - IMAGE 109</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/mortuary-station-2.jpg</media>
+</item>
+<item>
+<position>15</position>
+<image_no>M15.1</image_no>
+<building>Sydney Registry Office</building>
+<location>Elizabeth Street</location>
+<period>1850s - 1860s</period>
+<date>1860</date>
+<architect>Alexander Dawson</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=168249</thumbnail>
+<credit>SLNSW</credit>
+<snippet>In 2016 the Registry Office celebrates 150 years of service. </snippet>
+<media>images-1/sydney-registry-office.jpg</media>
+</item>
+<item>
+<position>16</position>
+<image_no>M16.1</image_no>
+<building>Chief Secretary's Building</building>
+<location>Bridge Street, Sydney</location>
+<period>1870s - 1880s</period>
+<date>1873</date>
+<architect>James James Barnet, Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/chief-secretary-building-bw.jpg</media>
+</item>
+<item>
+<position>17</position>
+<image_no>M17.1</image_no>
+<building>Palm House</building>
+<location>Royal Botanical Gardens</location>
+<period>1870s - 1880s</period>
+<date>1876</date>
+<architect>James Barnet</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=183662</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/palm-house.jpg</media>
+</item>
+<item>
+<position>18</position>
+<image_no>M18.1</image_no>
+<building>General Post Office</building>
+<location>Martin Place</location>
+<period>1870s - 1880s</period>
+<date>1878</date>
+<architect>James Barnet, Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Michael Nicholson, GAO</credit>
+<snippet>The realistic carvings by sculptor Thomas Sani, caused a public scandal.</snippet>
+<media>images-1/gpo-1.jpg</media>
+</item>
+<item>
+<position>19</position>
+<image_no>M19.1</image_no>
+<building>George Street Police Station</building>
+<location>George Street, The Rocks</location>
+<period>1870s - 1880s</period>
+<date>1882</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Michael Nicholson, GAO</credit>
+<snippet>The "city gate" façade is rare in Australia. The lion's head keystone was designed to have a truncheon in its mouth.</snippet>
+<media>images-1/george-st-police-stn.jpg</media>
+</item>
+<item>
+<position>20</position>
+<image_no>M20.1</image_no>
+<building>Callan Park Hospital for the Insane</building>
+<location>Rozelle</location>
+<period>1870s - 1880s</period>
+<date>1883</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/callan-park-kirkbride.jpg</media>
+</item>
+<item>
+<position>21</position>
+<image_no>M21.1</image_no>
+<building>Anderson Stuart Building (Medical School)</building>
+<location>University of Sydney</location>
+<period>1870s - 1880s</period>
+<date>1884</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>University of Sydney Archives</credit>
+<snippet>A superb example of neo-Gothic with much stained glass,  gargoyles and other carvings.</snippet>
+<media>images-1/usyd-med-school.jpg</media>
+</item>
+<item>
+<position>22</position>
+<image_no>M22.1</image_no>
+<building>Art Gallery of NSW</building>
+<location>The Domain, Sydney</location>
+<period>1870s - 1880s</period>
+<date>1885</date>
+<architect>James Barnet</architect>
+<thumbnail> </thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/art-gallery-column.jpg</media>
+</item>
+<item>
+<position>23</position>
+<image_no>M23.1</image_no>
+<building>No. 1 Fire Station</building>
+<location>Castlereagh Street</location>
+<period>1870s - 1880s</period>
+<date>1888</date>
+<architect>James Barnet</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet>Considered innovative for its time, the building includes features similar to the London Metropolitan Fire Brigade. </snippet>
+<media>images-1/no-1-fire-station.jpg</media>
+</item>
+<item>
+<position>24</position>
+<image_no>M24.1</image_no>
+<building>Petersham Branch Technical SchoolÊ</building>
+<location>Crystal Street, Petersham</location>
+<period>1890s - 1900s</period>
+<date>1891</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Kristy Wellfare</credit>
+<snippet></snippet>
+<media>images-1/petersham-branch-tech.jpg</media>
+</item>
+<item>
+<position>25</position>
+<image_no>M25.1</image_no>
+<building>Sydney Technical College</building>
+<location>Maryann Street, Ultimo</location>
+<period>1890s - 1900s</period>
+<date>1891</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Michael Nicholson, courtesy GAO</credit>
+<snippet>This building has amazing stone carvings, including lots representing native Australian animals</snippet>
+<media>images-1/sydney-technical-college.jpg</media>
+</item>
+<item>
+<position>26</position>
+<image_no>M26.1</image_no>
+<building>Central Police Court</building>
+<location>Liverpool Street</location>
+<period>1890s - 1900s</period>
+<date>1892</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>The Coat of Arms communicates the authoritative status of the legal system in the late 19th century.</snippet>
+<media>images-1/central-police-court.jpg</media>
+</item>
+<item>
+<position>27</position>
+<image_no>M27.1</image_no>
+<building>Redfern Courthouse</building>
+<location>Redfern</location>
+<period>1890s - 1900s</period>
+<date>1898</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Michael Nicholson, courtesy GAO</credit>
+<snippet>This building has now been adapted as the Redfern Community Health Centre.</snippet>
+<media>images-1/redfern-courthouse.jpg</media>
+</item>
+<item>
+<position>28</position>
+<image_no>M28.1</image_no>
+<building>Governor Phillip Statue and Fountains</building>
+<location>Royal Botanic Gardens</location>
+<period>1890s - 1900s</period>
+<date>1897</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=413713</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/governor-phillip-statue.jpg</media>
+</item>
+<item>
+<position>29</position>
+<image_no>M29.1</image_no>
+<building>Central Railway Station</building>
+<location>Sydney</location>
+<period>1890s - 1900s</period>
+<date>1901</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=8685</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/central-railway-stn.jpg</media>
+</item>
+<item>
+<position>30</position>
+<image_no>M30.1</image_no>
+<building>Central Railway Station</building>
+<location>Sydney</location>
+<period>1890s - 1900s</period>
+<date>1901</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet></snippet>
+<media>images-1/clock-detail.jpg</media>
+</item>
+<item>
+<position>31</position>
+<image_no>M31.1</image_no>
+<building>Gate Keepers Lodge</building>
+<location>University of Sydney</location>
+<period>1890s - 1900s</period>
+<date>1895</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=33746</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/gate-keepers-lodge.jpg</media>
+</item>
+<item>
+<position>32</position>
+<image_no>M32.1</image_no>
+<building>MacLaurin Hall</building>
+<location>University of Sydney</location>
+<period>1890s - 1900s</period>
+<date>1902</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>University of Sydney Archives</credit>
+<snippet>The first Fisher Library. The hammer beam roof is of Australian cedar.</snippet>
+<media>images-1/macLaurin-hall.jpg</media>
+</item>
+<item>
+<position>33</position>
+<image_no>M33.1</image_no>
+<building>MacLaurin Hall</building>
+<location>University of Sydney</location>
+<period>1890s - 1900s</period>
+<date>1902</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail> </thumbnail>
+<credit>University of Sydney Archives</credit>
+<snippet></snippet>
+<media>images-1/macLaurin-hall-exterior.jpg</media>
+</item>
+<item>
+<position>34</position>
+<image_no>M34.1</image_no>
+<building>State Abattoir</building>
+<location>Homebush</location>
+<period>1890s - 1900s</period>
+<date>1907-1915</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Sydney Olympic Park Authority</credit>
+<snippet>The biggest Abbatoir in the Commonwealth, employing up to 1600 men. </snippet>
+<media>images-1/state-abattoir-aerial.jpg</media>
+</item>
+<item>
+<position>35</position>
+<image_no>M35.1</image_no>
+<building>State Abattoir</building>
+<location>Homebush</location>
+<period>1890s - 1900s</period>
+<date>1907-1915</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/state-abattoir.jpg</media>
+</item>
+<item>
+<position>36</position>
+<image_no>M36.1</image_no>
+<building>Royal Edward Victualling Yard</building>
+<location>Ultimo</location>
+<period>1890s - 1900s</period>
+<date>1904</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=188674</thumbnail>
+<credit>SLNSW</credit>
+<snippet>Equipment associated with the victualling are extant including hoists, lifts, cloth manufacturing machines and a crane.</snippet>
+<media>images-1/royal-edward-victualling-yard.jpg</media>
+</item>
+<item>
+<position>37</position>
+<image_no>M37.1</image_no>
+<building>Challis House</building>
+<location>Martin Place</location>
+<period>1890s - 1900s</period>
+<date>1907</date>
+<architect>Robertson and Marks with Walter Liberty Vernon</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=53241</thumbnail>
+<credit>SLNSW</credit>
+<snippet>The façade was completely rebuilt in 1938 in the Art Deco Style.</snippet>
+<media>images-1/challis-house.jpg</media>
+</item>
+<item>
+<position>38</position>
+<image_no>M38.1</image_no>
+<building>Drummoyne Fire Station</building>
+<location>Drummoyne</location>
+<period>1910s - 1920s</period>
+<date>1910</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=411796  - IMAGE 4</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/drummoyne-fire-stn.jpg</media>
+</item>
+<item>
+<position>39</position>
+<image_no>M39.1</image_no>
+<building>Darlinghurst Fire Station</building>
+<location>Victoria Street Darlinghurst</location>
+<period>1910s - 1920s</period>
+<date>1912</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Michael Nicholson, Courtesy GAO</credit>
+<snippet>One of Vernon's last projects as GA, it represents a dramatic departure from the stereotype of the public building.</snippet>
+<media>images-1/darlinghurst-fire-stn.jpg</media>
+</item>
+<item>
+<position>40</position>
+<image_no>M40.1</image_no>
+<building>Education Building</building>
+<location>Bridge Street Sydney</location>
+<period>1910s - 1920s</period>
+<date>1912</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=227737</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/education-building.jpg</media>
+</item>
+<item>
+<position>41</position>
+<image_no>M41.1</image_no>
+<building>(top) Entrance Building, Taronga Zoo</building>
+<location>Taronga Zoo, Mosman</location>
+<period>1910s - 1920s</period>
+<date>1916</date>
+<architect>George McRae</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet></snippet>
+<media>images-1/taronga-zoo-entry.jpg</media>
+</item>
+<item>
+<position>42</position>
+<image_no>M42.1</image_no>
+<building>Elephant House</building>
+<location>Taronga Zoo, Mosman</location>
+<period>1910s - 1920s</period>
+<date>1916</date>
+<architect>George McRae</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet>228 mammals, 552 birds and 64 reptiles were moved from the old Zoo at Moore Park. The elephants crossed the harbour on a barge.</snippet>
+<media>images-1/elephant-house.jpg</media>
+</item>
+<item>
+<position>43</position>
+<image_no>M43.1</image_no>
+<building>(Lower) Entrance Building, Taronga Zoo</building>
+<location>Taronga Zoo, Mosman</location>
+<period>1910s - 1920s</period>
+<date>1916</date>
+<architect>George McRae</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=191385</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/lower-entrance-building-taronga-zoo.jpg</media>
+</item>
+<item>
+<position>44</position>
+<image_no>M44.1</image_no>
+<building>State Abattoir</building>
+<location>Homebush</location>
+<period>1910s - 1920s</period>
+<date>1915 (designed 1908)</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail></thumbnail>
+<credit>Sydney Olympic Park Authority</credit>
+<snippet></snippet>
+<media>images-1/state-abattoir-aerial.jpg</media>
+</item>
+<item>
+<position>45</position>
+<image_no>M45.1</image_no>
+<building>State Abattoir</building>
+<location>Homebush</location>
+<period>1910s - 1920s</period>
+<date>1915 (designed 1908)</date>
+<architect>Walter Liberty Vernon</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=210059</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/state-abattoir-lunchroom.jpg</media>
+</item>
+<item>
+<position>46</position>
+<image_no>M46.1</image_no>
+<building>Parcels post office, Central Railway Station</building>
+<location>Sydney</location>
+<period>1910s - 1920s</period>
+<date>1915</date>
+<architect>George McRae</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=402796 - IMAGE 24</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/parcels-po-central-railway-stn.jpg</media>
+</item>
+<item>
+<position>47</position>
+<image_no>M47.1</image_no>
+<building>Blackburn Building, University of Sydney</building>
+<location>University of Sydney</location>
+<period>1930s - 1940s</period>
+<date>1933</date>
+<architect>Edwin Smith</architect>
+<thumbnail></thumbnail>
+<credit>University of Sydney Archives</credit>
+<snippet></snippet>
+<media>images-1/usyd-blackburn-building.jpg</media>
+</item>
+<item>
+<position>48</position>
+<image_no>M48.1</image_no>
+<building>Wallace theatre, University of Sydney</building>
+<location>University of Sydney</location>
+<period>1930s - 1940s</period>
+<date>1945</date>
+<architect>Harry Rembert</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=170197</thumbnail>
+<credit>SLNSW</credit>
+<snippet></snippet>
+<media>images-1/usyd-wallace-theatre.jpg</media>
+</item>
+<item>
+<position>49</position>
+<image_no>M49.1</image_no>
+<building>Jeffery House, Parramatta Hospital</building>
+<location>Balmain</location>
+<period>1930s - 1940s</period>
+<date>1943</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/jeffery-house-parramatta-hospital.jpg</media>
+</item>
+<item>
+<position>50</position>
+<image_no>M50.1</image_no>
+<building>Hoskins Block, Sydney Technical College</building>
+<location>Sydney TAFE</location>
+<period>1930s - 1940s</period>
+<date>1940</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>Veronica Norman</credit>
+<snippet></snippet>
+<media>images-1/hoskins-block.jpg</media>
+</item>
+<item>
+<position>51</position>
+<image_no>M51.1</image_no>
+<building>Robert Heffron Building (now known as the Australian School of Business Building</building>
+<location>Univeristy of New South Wales</location>
+<period>1950s - 1960s</period>
+<date>1958</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>University of New South Wales Archives</credit>
+<snippet></snippet>
+<media>images-1/robert-heffron-building.jpg</media>
+</item>
+<item>
+<position>52</position>
+<image_no>M52.1</image_no>
+<building>Chemistry Building</building>
+<location>University of Sydney</location>
+<period>1950s - 1960s</period>
+<date>1958</date>
+<architect>Cobden Parkes</architect>
+<thumbnail></thumbnail>
+<credit>University of Sydney Archives</credit>
+<snippet></snippet>
+<media>images-1/usyd-chem-building.jpg</media>
+</item>
+<item>
+<position>53</position>
+<image_no>M53.1</image_no>
+<building>Mona Vale Hospital</building>
+<location>Mona Vale</location>
+<period>1950s - 1960s</period>
+<date>1960</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>Alex Proimos via Wikimedia Commons</credit>
+<snippet>The Hospital opened on February 22, 1964, amid official celebrations in Coronation St. The 130-bed facility was soon staffed by 201 employees.</snippet>
+<media>images-1/mona-vale-hospital.jpg</media>
+</item>
+<item>
+<position>54</position>
+<image_no>M54.1</image_no>
+<building>Roundhouse</building>
+<location>University of New South Wales</location>
+<period>1950s - 1960s</period>
+<date>1961</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New South Wales Archives</credit>
+<snippet></snippet>
+<media>images-1/roundhouse.jpg</media>
+</item>
+<item>
+<position>55</position>
+<image_no>M55.1</image_no>
+<building>Fisher Library</building>
+<location>University of Sydney</location>
+<period>1950s - 1960s</period>
+<date>1962</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of Sydney Archives</credit>
+<snippet>The first stage was a five storey wing, with a nine storey stack added four years later.</snippet>
+<media>images-1/usyd-fisher-library.jpg</media>
+</item>
+<item>
+<position>56</position>
+<image_no>M56.1</image_no>
+<building>State Office Block</building>
+<location>Bent Street Sydney</location>
+<period>1950s - 1960s</period>
+<date>1964</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=257745</thumbnail>
+<credit>SLNSW</credit>
+<snippet>The building topped out in June 1965, and became the country's tallest skyscraper. It held the title until late 1967 when eclipsed by the 170m Australia Square.</snippet>
+<media>images-1/state-office-block.jpg</media>
+</item>
+<item>
+<position>57</position>
+<image_no>M57.1</image_no>
+<building>Phillip Goldstein Hall</building>
+<location>University of New South Wales</location>
+<period>1950s - 1960s</period>
+<date>1964</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New South Wales Archives</credit>
+<snippet></snippet>
+<media>images-1/phillip-goldstein-hall.jpg</media>
+</item>
+<item>
+<position>58</position>
+<image_no>M58.1</image_no>
+<building>Pennant Hills High School</building>
+<location>Pennant Hills</location>
+<period>1950s - 1960s</period>
+<date>1966</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Designed by Michael Dysart and is one of the first "doughnut" design schools.</snippet>
+<media>images-1/pennant-hills-high-school.jpg</media>
+</item>
+<item>
+<position>59</position>
+<image_no>M59.1</image_no>
+<building>Phillip Baxter College</building>
+<location>University of New South Wales</location>
+<period>1950s - 1960s</period>
+<date>1966</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of New South Wales Archives</credit>
+<snippet>Named after UNSW's first Vice-Chancellor. It is the largest of the UNSW colleges priding itself on its diverse student population.</snippet>
+<media>images-1/phillip-baxter-college.jpg</media>
+</item>
+<item>
+<position>60</position>
+<image_no>M60.1</image_no>
+<building>Chapel, St Margaret Hospital</building>
+<location>Surry Hills</location>
+<period>1950s - 1960s</period>
+<date>1956</date>
+<architect>Cobden Parkes</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=259140</thumbnail>
+<credit>Peter Miller</credit>
+<snippet>Pre-cast concrete with steel windows. Now occupied by Object: Australian Design Centre.</snippet>
+<media>images-1/chapel-st-margaret-hospital.jpg</media>
+</item>
+<item>
+<position>61</position>
+<image_no>M61.1</image_no>
+<building>Goodsell Building</building>
+<location>Hunter Street, Sydney</location>
+<period>1970s - 1980s</period>
+<date>1970</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail>http://www.acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=331985</thumbnail>
+<credit>Peter Liebeskind</credit>
+<snippet>Economical design with direct expression of primary and structural materials. Demolished 2011.</snippet>
+<media>images-1/goodsell-building.jpg</media>
+</item>
+<item>
+<position>62</position>
+<image_no>M62.1</image_no>
+<building>Dunbar Building, North Sydney Technical  College</building>
+<location>Gore Hill</location>
+<period>1970s - 1980s</period>
+<date>1971</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>University of Technology Archives</credit>
+<snippet></snippet>
+<media>images-1/dunbar-building.jpg</media>
+</item>
+<item>
+<position>63</position>
+<image_no>M63.1</image_no>
+<building>Pyramid Glasshouse, Royal Botanical Gardens</building>
+<location>Royal Botanical Gardens</location>
+<period>1970s - 1980s</period>
+<date>1972</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail>http://acmssearch.sl.nsw.gov.au/search/itemDetailPaged.cgi?itemID=271599</thumbnail>
+<credit>J Bar via Wikimedia Commons</credit>
+<snippet></snippet>
+<media>images-1/pyramid-glasshouse-rbg.jpg</media>
+</item>
+<item>
+<position>64</position>
+<image_no>M64.1</image_no>
+<building>Narrabeen North Primary School</building>
+<location>Narrabeen North</location>
+<period>1970s - 1980s</period>
+<date>1974</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/narrabeen-north-primary.jpg</media>
+</item>
+<item>
+<position>65</position>
+<image_no>M65.1</image_no>
+<building>William Balmain Teachers College (now Kuringai Campus, University of Technology Sydney)</building>
+<location>Lindfield</location>
+<period>1970s - 1980s</period>
+<date>1974</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail> </thumbnail>
+<credit>GAO</credit>
+<snippet>The Ku-ring-ai campus won several awards, including the Sir John Sulman Award for Architecture (1977) RAIA Merit Award (1973), the Concrete Institute Award (1973) and the Horticultural Award of Merit (1977).</snippet>
+<media>images-1/ku-ring-gi-collage.jpg</media>
+</item>
+<item>
+<position>66</position>
+<image_no>M66.1</image_no>
+<building>Koala Building, Taronga Zoo</building>
+<location>Mosman</location>
+<period>1970s - 1980s</period>
+<date>1970</date>
+<architect>Edward (Ted) Herbert Farmer</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet>The Koala House draws on the Sydney School of organic architecture and features oversized timber beams.</snippet>
+<media>images-1/koala-building-taronga-zoo.jpg</media>
+</item>
+<item>
+<position>67</position>
+<image_no>M67.1</image_no>
+<building>The Gardens Restaurant</building>
+<location>Royal Botanical Gardens</location>
+<period>1970s - 1980s</period>
+<date>1978</date>
+<architect>Charles Weatherburn, Ian Thomson (in association with Ken Woolley)</architect>
+<thumbnail></thumbnail>
+<credit>Stuart Midgley via Wikimedia Commons</credit>
+<snippet>The original Kiosk (Refreshment Room) designed by James Barnett and built in 1886, was destroyed by fire in 1976.</snippet>
+<media>images-1/gardens-restaurant.jpg</media>
+</item>
+<item>
+<position>68</position>
+<image_no>M68.1</image_no>
+<building>McKell Building</building>
+<location>Rawson Place</location>
+<period>1970s - 1980s</period>
+<date>1979</date>
+<architect>Charles Weatherburn, Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>Matt Devine</credit>
+<snippet>Home to the NSW Government Architect's Office from the 1980s until 2016.</snippet>
+<media>images-1/mckell-building.jpg</media>
+</item>
+<item>
+<position>69</position>
+<image_no>M69.1</image_no>
+<building>Sydney Police Centre</building>
+<location>Surry Hills</location>
+<period>1970s - 1980s</period>
+<date>1980</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Considered a "brutalist" building featuring vertical baorded off-form and bush-hammered concrete finishes.</snippet>
+<media>images-1/sydney-police-centre.jpg</media>
+</item>
+<item>
+<position>70</position>
+<image_no>M70.1</image_no>
+<building>Wharf Theatre</building>
+<location>Walsh Bay</location>
+<period>1970s - 1980s</period>
+<date>1984</date>
+<architect>Ian Thomson (in association with Vivian Fraser)</architect>
+<thumbnail></thumbnail>
+<credit>Jim Barlas</credit>
+<snippet>Award winning conversion of an ironbark wharf and warehouse structure.</snippet>
+<media>images-1/wharf-theatre.jpg</media>
+</item>
+<item>
+<position>71</position>
+<image_no>M71.1</image_no>
+<building>Macquarie Street Bicentennial Decorations </building>
+<location>Sydney</location>
+<period>1970s - 1980s</period>
+<date>1988</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>John Lugg</credit>
+<snippet>GAO coordinated the the city decorations and designed a series of archways to emphasise Macquarie St.</snippet>
+<media>images-1/bicentennial-decorations.jpg</media>
+</item>
+<item>
+<position>72</position>
+<image_no>M72.1</image_no>
+<building>Petersham TAFE</building>
+<location>Crystal Street, Petersham</location>
+<period>1970s - 1980s</period>
+<date>1984</date>
+<architect>Ian Thompson</architect>
+<thumbnail></thumbnail>
+<credit>Kristy Wellfare</credit>
+<snippet></snippet>
+<media>images-1/petersham-tafe.jpg</media>
+</item>
+<item>
+<position>73</position>
+<image_no>M73.1</image_no>
+<building>Bicentennial Park</building>
+<location>Sydney Olympic Park</location>
+<period>1970s - 1980s</period>
+<date>1988</date>
+<architect>Ian Thomson</architect>
+<thumbnail></thumbnail>
+<credit>Kristy Wellfare</credit>
+<snippet>Combining the Badu Mangroves wetlands on Homebush Bay with 40 hectares of beautiful parklands.</snippet>
+<media>images-1/bicentennial-park.jpg</media>
+</item>
+<item>
+<position>74</position>
+<image_no>M74.1</image_no>
+<building>Australian Technology Park Adaptive Reuse</building>
+<location>Everliegh</location>
+<period>1990s - 2000s</period>
+<date>1996</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/australian-technology-park.jpg</media>
+</item>
+<item>
+<position>75</position>
+<image_no>M75.1</image_no>
+<building>Manly Hydraulic Laboratory</building>
+<location>Manly Dam</location>
+<period>1990s - 2000s</period>
+<date>1999</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Natural environmental control is cleverly achieved by automatic louvres to ventilating stacks and the sub-floor labyrinth.</snippet>
+<media>images-1/manly-hydraulic-laboratory.jpg</media>
+</item>
+<item>
+<position>76</position>
+<image_no>M76.1</image_no>
+<building>St Mary's Cathedral Spires</building>
+<location>College Street, Sydney</location>
+<period>1990s - 2000s</period>
+<date>2000</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/st-marys-cathedral-spires.jpg</media>
+</item>
+<item>
+<position>77</position>
+<image_no>M77.1</image_no>
+<building>Victoria Park Public Domain</building>
+<location>Victoria Park</location>
+<period>1990s - 2000s</period>
+<date>2002</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/victoria-park.jpg</media>
+</item>
+<item>
+<position>78</position>
+<image_no>M78.1</image_no>
+<building>No. 1 Fire Station</building>
+<location>Castlereagh Street</location>
+<period>1990s - 2000s</period>
+<date>2002</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Respecting Barnet's adjacent 1887 firestation while being clearly contemporary.</snippet>
+<media>images-1/no-1-fire-station-interior.jpg</media>
+</item>
+<item>
+<position>79</position>
+<image_no>M79.1</image_no>
+<building>Cahill Expressway - Public Domain</building>
+<location>Cahill Expressway</location>
+<period>1990s - 2000s</period>
+<date>2003</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/cahill-expressway.jpg</media>
+</item>
+<item>
+<position>80</position>
+<image_no>M80.1</image_no>
+<building>Plough &amp; Harrow Precinct, Western Sydney Parklands</building>
+<location>Abbotsbury</location>
+<period>1990s - 2000s</period>
+<date>2004</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet>Meeting the West's increasing recreational demands while interpreting its history, the project includes 2 sets of pavilions sheltering up to 100 people.</snippet>
+<media>images-1/plough-harrow-precinct-wsp.jpg</media>
+</item>
+<item>
+<position>81</position>
+<image_no>M81.1</image_no>
+<building>Chatswood Police Station</building>
+<location>Chatswood</location>
+<period>1990s - 2000s</period>
+<date>2005</date>
+<architect>Cathy Kubany</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>The project celebrates and respects a magnificent heritage listed Sydney Red Gum by planning around it.</snippet>
+<media>images-1/chatswood-police-station.jpg</media>
+</item>
+<item>
+<position>82</position>
+<image_no>M82.1</image_no>
+<building>Houses of the Future</building>
+<location>Sydney Opera House Forecourt</location>
+<period>1990s - 2000s</period>
+<date>2005</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>The GAO Concrete House celebrated the honest and robust material using readily avaliable compnents.</snippet>
+<media>images-1/sydney-opera-house-forecourt.jpg</media>
+</item>
+<item>
+<position>83</position>
+<image_no>M83.1</image_no>
+<building>Aboriginal Medical Service</building>
+<location>Redfern</location>
+<period>1990s - 2000s</period>
+<date>2004</date>
+<architect>Chris Johnson</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-1/aboriginal-medical-service.jpg</media>
+</item>
+<item>
+<position>84</position>
+<image_no>M84.1</image_no>
+<building>Palace Rose Garden, Royal Botanic Gardens</building>
+<location>Sydney Opera House Forecourt</location>
+<period>1990s - 2000s</period>
+<date>2006</date>
+<architect>Greg Jackson</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-1/palace-rose-garden.jpg</media>
+</item>
+<item>
+<position>85</position>
+<image_no>M85.1</image_no>
+<building>Bankstown Courthouse</building>
+<location>Bankstown</location>
+<period>1990s - 2000s</period>
+<date>2006</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>Provides a safe non-threatening environment for all users while communicating the symbolism of the modern justice system.</snippet>
+<media>images-1/bankstown-courthouse.jpg</media>
+</item>
+<item>
+<position>86</position>
+<image_no>M86.1</image_no>
+<building>Aboriginal Health College</building>
+<location>Little Bay</location>
+<period>1990s - 2000s</period>
+<date>2009</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>Rob Tuckwell, courtesy GAO</credit>
+<snippet>A training and research facility for more than 60 Aboriginal medical services in NSW.</snippet>
+<media>images-1/aboriginal-health-college.jpg</media>
+</item>
+<item>
+<position>87</position>
+<image_no>M87.1</image_no>
+<building>Greening the Wharf (installation of photovoltaic panels), Sydney Theatre</building>
+<location>Walsh Bay</location>
+<period>2010s - 2020s</period>
+<date>2010</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/photovoltaic-panels.jpg</media>
+</item>
+<item>
+<position>88</position>
+<image_no>M88.1</image_no>
+<building>Alfred, Pitt, Dalley and George Streets Site Urban Design Study</building>
+<location>Sydney</location>
+<period>2010s - 2020s</period>
+<date>2009</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>GAO</credit>
+<snippet></snippet>
+<media>images-1/urban-design-study.jpg</media>
+</item>
+<item>
+<position>89</position>
+<image_no>M89.1</image_no>
+<building>Harold Park Urban Design study</building>
+<location>Forest Lodge</location>
+<period>2010s - 2020s</period>
+<date>2010</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>Haycraft Duloy for GAO</credit>
+<snippet>Focused on the need for leafy tree-lined streets, high quality pedestrian and bicycle networks together with water sensitive design and maximised view lines from neighbouring streets.</snippet>
+<media>images-1/harold-pk-urban-design-study.jpg</media>
+</item>
+<item>
+<position>90</position>
+<image_no>M90.1</image_no>
+<building>The Sydney Green Grid (Urban Design Strategy)</building>
+<location>Sydney</location>
+<period>2010s - 2020s</period>
+<date>2014</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>A proposed network of quality green areas that connect town centres and transport networks with residential areas to ensure that Sydney remains one of the world’s most distinctive and liveable cities.</snippet>
+<media>images-1/green-grid.jpg</media>
+</item>
+<item>
+<position>91</position>
+<image_no>M91.1</image_no>
+<building>Urban Green Cover in NSW - Technical Guidelines</building>
+<location></location>
+<period>2010s - 2020s</period>
+<date>2014</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>Did you know that every 10% increase in tree cover can reduce land surface temperatures by more than 1&#8451;?</snippet>
+<media>images-1/urban-green-cover.jpg</media>
+</item>
+<item>
+<position>92</position>
+<image_no>M92.1</image_no>
+<building>Museum of Contemporary Art (Architect Marshall in association with the Government Architect's Office (NSW), &amp; West Circular Quay Public Domain Upgrade</building>
+<location>Circular Quay</location>
+<period>2010s - 2020s</period>
+<date>2012</date>
+<architect>Peter Mould (MCA in associsation with Architect Marshall)</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-1/museum-contemporary-art.jpg</media>
+</item>
+<item>
+<position>93</position>
+<image_no>M93.1</image_no>
+<building>Cammeraygal, North Sydney Institute of Technology</building>
+<location>Gore Hill</location>
+<period>2010s - 2020s</period>
+<date>2013</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>In 2013 the GAO revitalised the original 1967 brutalist design also by GAO. ESD reporting and analysis was used through the design process.</snippet>
+<media>images-1/cammeraygal-north-sydney.jpg</media>
+</item>
+<item>
+<position>94</position>
+<image_no>M94.1</image_no>
+<building>Walsh Bay Masterplan</building>
+<location>Walsh Bay</location>
+<period>2010s - 2020s</period>
+<date>2012</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit>Luke Wolstencroft, GAO</credit>
+<snippet>An integrated cultural precinct with an enhanced public domain linking to the Sydney 2030 vision of the foreshore.</snippet>
+<media>images-1/walsh-bay-masterplan.jpg</media>
+</item>
+<item>
+<position>95</position>
+<image_no>M95.1</image_no>
+<building>East Dome</building>
+<location>Observatory Hill</location>
+<period>2010s - 2020s</period>
+<date>2013</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet></snippet>
+<media>images-1/east-dome-observatory.jpg</media>
+</item>
+<item>
+<position>96</position>
+<image_no>M96.1</image_no>
+<building>Yurong Amenities Block</building>
+<location>The Royal Botanical Gardens, Sydney</location>
+<period>2010s - 2020s</period>
+<date>2013</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>A winner of the 2014 Small Project Award form the AIA NSW Chapter.</snippet>
+<media>images-1/yurong-amenities-block.jpg</media>
+</item>
+<item>
+<position>97</position>
+<image_no>M97.1</image_no>
+<building>Ngallu Wal (Aboriginal Child and Family Centre )</building>
+<location>Doonside</location>
+<period>2010s - 2020s</period>
+<date>2014</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>The design involved community consultation and includes: culturally sensitive design, ESD, safety and security &amp; simple construction to give local emplyment.</snippet>
+<media>images-1/ngallu-wal.jpg</media>
+</item>
+<item>
+<position>98</position>
+<image_no>M98.1</image_no>
+<building>The Ponds Primary School &amp; The Ponds High School</building>
+<location>The Ponds</location>
+<period>2010s - 2020s</period>
+<date>2015</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>"State of the art" in terms of school design, technology and curriculum - providing quality learning through enrichment and targeted learning assistance programs.</snippet>
+<media>images-1/ponds-primary-school.jpg</media>
+</item>
+<item>
+<position>99</position>
+<image_no>M99.1</image_no>
+<building>Ultimo Pyrmont Public School (unbuilt)</building>
+<location>Ultimo</location>
+<period>2010s - 2020s</period>
+<date>2015</date>
+<architect>Peter Poulet</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>Demonstrates how a school can contribute to the liveability of a dense inner city community and also tell a story of place.</snippet>
+<media>images-1/ultimo-pyrmont-ps.jpg</media>
+</item>
+<item>
+<position>100</position>
+<image_no>M100.1</image_no>
+<building>Bankstown Arts Centre and Adaptive Re-Use</building>
+<location>Bankstown</location>
+<period>2010s - 2020s</period>
+<date>2011</date>
+<architect>Peter Mould</architect>
+<thumbnail></thumbnail>
+<credit></credit>
+<snippet>This proejct adapts an existing theatre, community centre and aged care facility to become a major cultural hub in western Sydney.</snippet>
+<media>images-1/bankstown-arts-centre.jpg</media>
+</item>
+</collection>

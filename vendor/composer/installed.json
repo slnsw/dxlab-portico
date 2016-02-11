@@ -1,0 +1,53 @@
+[
+    {
+        "name": "mos/cimage",
+        "version": "v0.7.9",
+        "version_normalized": "0.7.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cimage.git",
+            "reference": "f250f7dff9123cfb84c6b60d6ee2820d9e8debe1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cimage/zipball/f250f7dff9123cfb84c6b60d6ee2820d9e8debe1",
+            "reference": "f250f7dff9123cfb84c6b60d6ee2820d9e8debe1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2015-12-07 15:02:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "CImage.php",
+                "CHttpGet.php",
+                "CRemoteImage.php",
+                "CWhitelist.php",
+                "CAsciiArt.php",
+                "CCache.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Process, scale, resize, crop and filter images.",
+        "homepage": "http://dbwebb.se/opensource/cimage",
+        "keywords": [
+            "gd",
+            "image",
+            "imageprocessing"
+        ]
+    }
+]

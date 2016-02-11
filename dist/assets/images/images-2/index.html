@@ -1,0 +1,557 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<html>
+	<head>
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+	<meta charset="utf-8">
+	<title>Government Architects office</title>
+<script src="https://use.typekit.net/lut7nvu.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+	<link rel="stylesheet" type="text/css" href="css/gao-wed.css">
+    <link rel="stylesheet" type="text/css" href="css/gao-bigscreen.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<!--<script type="text/javascript" src="js/underscore.min.js" ></script>-->
+	<!--<script src="http://requirejs.org/docs/release/2.1.11/minified/require.js"></script>-->
+	<script language="javascript" type="text/javascript">
+
+
+//=================WORKS  FF Safari Chrome=====================
+
+function resetpage() {
+    window.location.reload();
+}
+function openinfo () {
+	document.getElementById("infolayer");
+	$("#infolayer").removeClass("infolayer-off");
+
+	}
+	function closeinfo () {
+	document.getElementById("infolayer");
+	$("#infolayer").addClass("infolayer-off");
+	}
+
+function showinfo () {
+	document.getElementsByClassName("moreinfo");
+$(".moreinfo").addClass("moreinfo-on");
+	}
+	
+function hideinfo () {
+	document.getElementsByClassName("moreinfo");
+
+$(".moreinfo").removeClass("moreinfo-on");
+	}
+
+
+
+
+$(function () {  //does not require <body onLoad="getdata()" to fire>
+
+
+var request = function(src, init, xml){
+	this.src = src;
+	this.init = init || false;
+	this.xml = xml || {};
+	this.callback = doneXML;
+	this.status = 'pending';
+}
+
+function getXML(i)
+{
+	if(!requests[i].init){
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', requests[i].src, true);
+		xhr.onload = function(e){
+			if(xhr.readyState == 4){
+				if(xhr.status == 200){
+					requests[i].xml = xhr.responseXML;
+					requests[i].callback.call(i);
+				}
+			}
+		};
+		xhr.send(null);
+		requests[i].init = true;
+	}
+}
+
+var file1 = 'gao-1.xml';
+var file2 = 'gao-2.xml';
+var request1 = new request(file1);
+var request2 = new request(file2);
+var requests = new Array(request1, request2);
+var responses = new Array();
+
+for(i = 0; i < requests.length; i++){
+	getXML(i);
+}
+
+function doneXML()
+{
+	requests[this].status = 'done';
+	responses.push(requests[i]);
+	if(responses.length === requests.length){
+		init();
+	}
+}
+
+
+////////////////
+
+	function init()
+{
+		var gaoTopxmlDoc = requests[0].xml;
+		var xmlDoc = requests[1].xml;
+		
+		var gao2_building= xmlDoc.getElementsByTagName("building_name");
+		var gao2_title= xmlDoc.getElementsByTagName("architect");
+		var gao2_date= xmlDoc.getElementsByTagName("date");
+		var gao2_img = xmlDoc.getElementsByTagName("media");
+		var gao2_location = xmlDoc.getElementsByTagName("place");
+		var gao2_credit = xmlDoc.getElementsByTagName("credit");
+		
+		var gao2_snippet = xmlDoc.getElementsByTagName("snippet");
+
+		/////////////////////////////////////////////////////
+		var gao1_building= gaoTopxmlDoc.getElementsByTagName("building_name");
+		var gao1_title= gaoTopxmlDoc.getElementsByTagName("architect");
+		var gao1_date= gaoTopxmlDoc.getElementsByTagName("date");
+		var gao1_img = gaoTopxmlDoc.getElementsByTagName("media");
+		var gao1_location = gaoTopxmlDoc.getElementsByTagName("place");
+		var gao1_credit = gaoTopxmlDoc.getElementsByTagName("credit");
+		
+		var gao1_snippet = gaoTopxmlDoc.getElementsByTagName("snippet");
+
+		var gaoTop = '';
+	   	var gaoBottom = '';
+		var gaoimgwidth = '';
+		var snippetdiv = '';
+		
+		for (i=0;i<gao2_title.length;i++)
+	   {
+
+
+
+		//////////////////////////////////////////////////////*GAO TOP*//////////////////////////////////////////////////////
+
+
+		var TOPimg = (gao1_img[i].childNodes[0].nodeValue);
+		var TOPbuilding = (gao1_building[i].childNodes[0].nodeValue);
+	
+		var TOParchitect = (typeof gao1_title[i].childNodes[0] !== 'undefined' ? gao1_title[i].childNodes[0].nodeValue : '');
+		
+		//console.log(BOTTOMarchitect);
+		if (TOParchitect == "" )
+		{TOParchitect = "Government Architect Office"}
+		
+		var TOPlocation = (typeof gao1_location[i].childNodes[0] !== 'undefined' ? gao1_location[i].childNodes[0].nodeValue : '');
+		if (TOPlocation == "" )
+		{
+		TOPlocation = ""}
+		
+		var TOPcredit = (typeof gao1_credit[i].childNodes[0] !== 'undefined' ? gao1_credit[i].childNodes[0].nodeValue : '');
+		if (TOPcredit == "" )
+		{
+		TOPcredit = ""}
+		else{TOPcredit = ("Photo credit: "+TOPcredit)}
+
+		var gaoTop =  gaoTop + '<div id="topitem' +[i]+ '" class="slices" style="background: url(' +TOPimg+ ')no-repeat 0 0; background-size: auto 100%;"><img class="sydicon" src="images/info.png" alt="about Sydney image '+[i+1]+'"/><img id="varimg' +[i]+ '" class="placeholder" src="' +TOPimg + '"/><a id="sydinfo' +[i]+'" onmouseover="showinfo();" onmouseout="hideinfo();"><div class="moreinfo"><div class="title">' +TOPbuilding+'<br/>'+TOPlocation+'<br/>Architect: '+TOParchitect+'<br/>'+TOPcredit+'</div></div></a></div>';
+
+		
+		var topsnippet = (typeof gao1_snippet[i].childNodes[0] !== 'undefined' ? gao1_snippet[i].childNodes[0].nodeValue : '');
+		var bottomsnippet = (typeof gao2_snippet[i].childNodes[0] !== 'undefined' ? gao2_snippet[i].childNodes[0].nodeValue : '');
+		
+		if (topsnippet !== "" )
+		{
+			if(bottomsnippet == "")
+			{
+			var pointersnippet = ("&#8593; " + topsnippet)
+			}
+			else
+			{
+			var pointersnippet =  topsnippet
+			}
+			
+			
+			}
+		
+		else 
+		 {
+			var bottomsnippet = (typeof gao2_snippet[i].childNodes[0] !== 'undefined' ? gao2_snippet[i].childNodes[0].nodeValue : '');
+			if (bottomsnippet !== "" )
+			{
+			var pointersnippet = ("&#8595; " + bottomsnippet)
+			}
+			else pointersnippet = ""	
+		}
+		
+		
+		
+
+		var snippetdiv = snippetdiv + '<div id="snippet' +[i]+'" class="snippet-off">' +pointersnippet+' </div>';
+
+		//////////////////////////////////////////////////////* GAO BOTTOM *//////////////////////////////////////////////////////
+
+		var BOTTOMimg = (gao2_img[i].childNodes[0].nodeValue);
+		var BOTTOMarchitect = (typeof gao2_title[i].childNodes[0] !== 'undefined' ? gao2_title[i].childNodes[0].nodeValue : '');
+		
+		console.log(BOTTOMarchitect);
+	
+		if (BOTTOMarchitect == "" )
+		{
+		BOTTOMarchitect = "Government Architect Office"}
+		
+		var gaoBottom =  gaoBottom + '<div id="botitem' +[i]+ '" class="slices" style="background: url(' +BOTTOMimg+ ')no-repeat 0 0;background-size: auto 100%;"><img class="twicon" src="images/info.png" alt="about Regional image '+[i+1]+'"/><img class="placeholder" src="' +BOTTOMimg+ '"/><a id="twinfo' +[i]+'" onmouseover="showinfo();" onmouseout="hideinfo();"><div class="moreinfo"><div class="title">Architect: ' +BOTTOMarchitect +'</div></div></a></div>';
+
+		
+	 	
+		//var BOTTOMsnippet = (typeof gao2_snippet[i].childNodes[0] !== 'undefined' ? gao2_snippet[i].childNodes[0].nodeValue : '');
+		//if (BOTTOMsnippet == "" )
+		//{
+		//BOTTOMsnippet = ""}
+		
+		//var gaoBottomSnippet = gaoBottomSnippet + '<div id="bottomsnippet' +[i]+'" class="snippet-off" >' +BOTTOMsnippet+' </div>';
+		
+	 	
+		var file1 = gaoTop;
+		var filesnippets = snippetdiv;
+        var file2 = gaoBottom;
+		//var file2snippets = snippet;
+
+		
+		} //end loop to generate html
+
+
+		document.getElementById("toprow").innerHTML=file1;
+	 	document.getElementById("bottomrow").innerHTML=file2;
+		document.getElementById("snippets").innerHTML=filesnippets;
+	 	//document.getElementById("bottomsnippets").innerHTML=file2snippets;
+	 
+console.log('initiated')
+
+	 
+	 var docWidth = $(document).width();
+	 var winWidth = $(window).width();
+	 
+	 var onepercent = (winWidth * 0.05); //20 images
+	 onepercent = onepercent.toFixed(2);
+		console.log('onepercent ' + onepercent);
+		console.log('winWidth ' + winWidth);
+		console.log('i = ' + gao2_title.length);
+	
+ 
+	//var bottomdiv = document.getElementById("bottomrow").clientWidth; //css set to auto. will change with window size.
+	//var topdiv = document.getElementById("toprow").clientWidth;
+
+
+for (var i=0; i<gao2_title.length; i++)
+
+{
+	
+$("#topitem"+[i]).hover(
+function () //gaoTop //mouse in
+  {
+
+if(document.readyState === 'complete') {
+	
+	var gaoimgwidth = document.getElementById("varimg"+[3]).clientWidth; //need to get this variable from the .load function instead
+	var newtopdiv = (winWidth + gaoimgwidth);
+	console.log('ready state inside hover fnction: gaoimgwidth ' + gaoimgwidth);
+}
+
+	var topHoveritem = ($(this)[0].id);
+	var botHoveritem = topHoveritem.substring(3,10); //'item'+num
+	var selectedimgnum = topHoveritem.substring(7,10); //number at end of id
+	var snippet = "snippet"+selectedimgnum;
+	var bottomsnippet = "bottomsnippet"+selectedimgnum;
+	
+	var topWidth = onepercent; //slices
+	//console.log('topWidth ' + onepercent);
+	var gaoTopoffset = $(("#")+topHoveritem).offset();
+	var gaoToppos = Math.round(gaoTopoffset.left);
+	//console.log('gaoToppos' + gaoToppos);
+
+	var gaoBottomoffset = $(("#bot")+botHoveritem).offset();
+	var gaoBottompos = gaoBottomoffset.left
+
+	$(("#")+topHoveritem).addClass("overlayinfo");
+	$(("#bot")+botHoveritem).addClass("overlayinfo");
+	//if()
+	//{
+	$(("#")+snippet).addClass("snippet-on");
+	//$(("#")+bottomsnippet).addClass("snippet-on");
+	
+	//}
+	var botWidth = gaoimgwidth;
+	var topWidth = gaoimgwidth;
+
+	//var requiredwidth = (gaoToppos + gaoimgwidth)
+	var requiredwidth = (winWidth - gaoimgwidth)
+
+		//if (requiredwidth > winWidth)
+		//if (gaoToppos > 1152)
+		if (gaoToppos > requiredwidth)
+		
+			{	//console.log(requiredwidth +' '+ winWidth);
+				
+				$(".slices").css('width',onepercent+'px'); //prevents slices from widening once wider parent div width is set
+				
+				//$("#toprow").css('width',newtopdiv-onepercent +'px');
+				//$("#bottomrow").css('width',newtopdiv-onepercent +'px');
+				
+				$(("#")+topHoveritem).css('width',gaoimgwidth+'px');
+				$(("#bot")+botHoveritem).css('width',gaoimgwidth+'px');
+				
+				$(("#")+topHoveritem).css('overflow','visible');
+				$(("#bot")+botHoveritem).css('overflow','visible');
+				
+				////
+				//setTimeout(function(){
+		 		$("#toprow").css('width',newtopdiv-onepercent +'px');
+				//$('body, html').animate( { scrollLeft: gaoimgwidth }, 2000 );
+		 		//}, 3000);
+					setTimeout(function(){
+			
+				$('body, html').animate( { scrollLeft: gaoimgwidth }, {
+    duration: 3000,
+    specialEasing: {
+      width: "linear"
+    },
+    complete: function() {
+      //$( this ).after( "<div>Animation complete.</div>" );
+	  console.log('fin');
+    }
+  });
+				
+					},2000);
+				///
+				
+          	////
+				
+				
+				var scrolled = "yes";
+				
+			}
+		else
+			{
+				
+				$("#title-center").css('opacity','0.1');
+				$(("#")+topHoveritem).width(gaoimgwidth);
+				$(("#bot")+botHoveritem).width(gaoimgwidth);
+				$("#bottomrow").css('width',winWidth +'px');
+				$("#toprow").css('width',winWidth +'px');
+			
+				var scrolled = "no";
+			}
+
+	},
+	function () //top //mouse out
+  	{
+		var scrolled = '';
+	var topHoveritem = ($(this)[0].id);
+	var botHoveritem = topHoveritem.substring(3,10);
+	var selectedimgnum = topHoveritem.substring(7,10); //number at end of id
+	
+	var gaoTopoffset = $(("#")+topHoveritem).offset();
+	var gaoToppos = gaoTopoffset.left
+
+	var gaoBottomoffset = $(("#bot")+botHoveritem).offset();
+	var gaoBottompos = gaoBottomoffset.left
+
+	$(("#bot")+botHoveritem).removeClass("overlayinfo");
+	$(("#")+topHoveritem).removeClass("overlayinfo");
+	$(("#")+topHoveritem).width(onepercent);
+	$(("#bot")+botHoveritem).width(onepercent);
+	$(("#snippet")+selectedimgnum).removeClass("snippet-on");
+	//$(("#bottomsnippet")+selectedimgnum).removeClass("snippet-on");
+	
+	$(("#")+topHoveritem).css('overflow','hidden');
+	
+	
+	var topWidth = onepercent;
+	
+  	}
+	
+)
+ 
+/* =========== */
+
+$("#botitem"+[i]).hover(
+  function () //bottom //mouse in
+  {
+	if(document.readyState === 'complete') 
+	{
+	var gaoimgwidth = document.getElementById("varimg"+[3]).clientWidth;
+	//var topdiv = document.getElementById("toprow").clientWidth;
+	var bottomdiv = document.getElementById("bottomrow").clientWidth; //css set to auto. will change with window size.
+	var newbottomdiv = (winWidth + gaoimgwidth);
+	} 
+	
+	var botHoveritem = ($(this)[0].id);
+	var topHoveritem = botHoveritem.substring(3,10);
+
+	var gaoBottomoffset = $(("#")+botHoveritem).offset();
+	var gaoBottompos = gaoBottomoffset.left
+
+	var gaoTopoffset = $(("#top")+topHoveritem).offset();
+	var gaoToppos = gaoTopoffset.left
+	//alert(gaoTopoffset +' , '+gaoToppos)
+	$(("#")+botHoveritem).addClass("overlayinfo");
+	$(("#top")+topHoveritem).addClass("overlayinfo");
+	
+	$("#bottomrow").css('width',bottomdiv +'px');
+	
+	var x = document.getElementsByClassName("overlayinfo").length;
+//alert("x = " +x);
+		var botWidth = gaoimgwidth;
+		var topWidth = gaoimgwidth;
+		
+
+			// If the user's mouse isn't over a slice within the past 0.1 seconds, reset the width for the top and bottom row.
+
+//console.log('gaoimgwidth' + gaoimgwidth);
+//console.log('docWidth' + docWidth);
+var requiredwidth = (gaoBottompos + gaoimgwidth)
+
+
+		
+		if (requiredwidth > docWidth)
+	
+				//if ( (eval(gaoBottompos + botWidth) > docWidth) || (eval(gaoToppos + topWidth) > docWidth) )  //GAO
+				{
+					//$('body, html').scrollLeft(gaoimgwidth);
+					//$("#toprow").scrollLeft(gaoimgwidth);
+				$(".slices").css('width',onepercent+'px');
+				$("#bottomrow").css('width',newbottomdiv-onepercent +'px');
+				$("#toprow").css('width',newbottomdiv-onepercent +'px');
+				//$("#bottomrow").css('width',eval(bottomdiv+gaoimgwidth-onepercent) +'px');
+				
+				$(("#")+botHoveritem).css('width',gaoimgwidth+'px');
+				$(("#top")+topHoveritem).css('width',gaoimgwidth+'px');
+				
+				$(("#")+botHoveritem).css('overflow','visible');
+				$(("#top")+topHoveritem).css('overflow','visible');
+				
+				}
+		
+			else
+				{
+				$(("#")+botHoveritem).width(gaoimgwidth);
+				$(("#top")+topHoveritem).width(gaoimgwidth);
+				$("#title-center").css('opacity','0.1');
+				$("#bottomrow").css('width',winWidth +'px');
+				$("#toprow").css('width',winWidth +'px');
+				}
+				
+	//activateScroll($(this));	
+	},
+	function () //bottom //mouse out
+  {
+	  var scrolled = '';
+	var botHoveritem = ($(this)[0].id);
+	var topHoveritem = botHoveritem.substring(3,10);
+
+	var gaoBottomoffset = $(("#")+botHoveritem).offset();
+	var gaoBottompos = gaoBottomoffset.left
+
+	var gaoTopoffset = $(("#top")+topHoveritem).offset();
+	var gaoToppos = gaoTopoffset.left
+
+	$(("#")+botHoveritem).removeClass("overlayinfo");
+	$(("#top")+topHoveritem).removeClass("overlayinfo");
+	$(("#")+botHoveritem).width(onepercent);
+	$(("#top")+topHoveritem).width(onepercent);
+	//deactivateScroll();
+	//var botWidth = onepercent;
+	
+  	}
+
+)
+
+
+} // end for loop for top and bottom
+
+$("#gao1holder").hover(  //using this to reset scroll position if mouse out of all slices.
+  function () //top //mouse in
+  {
+	  //console.log('#gao1holder on');
+  },
+  function () //top //mouse out
+  {
+	  //console.log('#gao1holder off');
+	  setTimeout(function(){
+		 $("#toprow").css('width',winWidth +'px');
+		 
+			}, 2000);
+	
+
+	$('body, html').animate( { scrollLeft: (0,0) }, 1000 );
+	
+	
+  }
+ )
+
+
+} //end init
+
+
+}); //end unnamed function
+
+
+</script>
+
+	</head>
+
+	<body>
+
+
+
+    <div id="pagewrapper">
+    <div id="gao1holder"><div id="toprow"></div></div>
+	<div id="snippets"></div>
+    <div id ="title-center"><h1>&#8593; city and state &#8595; 1816 - 2016</h1></div>
+	<div id="tweedholder"><div id="bottomrow"></div></div>
+    </div>
+
+
+<!--<script type="text/underscore" id ="tags">
+	<h2><%= name %></h2>
+		<% _.each(tags, function(title, key, list){ %>
+			<div class="trove-<%= key %>">
+			<% _.each(title, function(obj, tag, list){ %>
+				<%
+					// Ensures the font is higher than 1em but not higher than 3. Finds the nearest highest power of 2 relative to the number of occurences for each word.
+					var font = ((parseInt(nearestPow(obj.count, 2)) / 15) + 1);
+
+					font = (font > 5 ? 5: font);
+
+				%>
+				<span style="font-size: <%= font %>em;"><a href="<%= obj.path %>" target="_blank"><%= tag %></a> </span>
+			<% }); %>
+			</div>
+		<% }); %>
+	</script>-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-108603-29', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</body>
+   <!-- <script type="text/javascript" src="core.js?v1" ></script>-->
+<script> $(window).resize(function(){
+	//window.location.reload();
+//var gaoimgwidth = document.getElementById("varimg"+[3]).clientWidth; /*all GAO images are going to be the same size. They will only change scale when window is resized. The first 4 images in the bottom row have been swapped out for GAO sample images.*/
+
+
+});
+
+
+</script>
+	</html>
