@@ -79,7 +79,7 @@ define(['require', 'helper.min', 'jquery'], function(require, helper, $){
                             // Convert the property to a jQuery object.
                             var property = $(property);
                             // Get the textual value.
-                            var value = property.text();
+                            var value = property.html();
                             // Store the property as a key - value pair under the item in the resulting array.
                             result[i][property.prop('tagName')] = (value ? value : '');
                             // Maintain the associative array length.

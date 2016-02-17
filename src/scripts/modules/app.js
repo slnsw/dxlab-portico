@@ -141,7 +141,7 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                             }); 
                             var iconAreaElement = $('<a class="icon" href="#"><img src="' + self.resourcesPath + '/images/info.png' + '" /></a>');
                             // Concatenate the necessary information using selective properties under the item node.                            
-                            var info = helper.concatText(properties['building'], properties['location'], 'Architect: ' + properties['architect'], properties['date'], 'Credit: ' + properties['credit']);                            
+                            var info = helper.concatText(properties['building'], properties['location'], 'Architect: ' + properties['architect'], properties['date'], 'Photo: ' + properties['credit']);                            
                             var infoElement = $('<div></div>', {
                                 class: 'text',
                             }).html(info);
@@ -364,6 +364,7 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                     // Ensure to negate any offset triggered from scrolling.   
                     var x = (event.pageX - window.pageXOffset);
                     var y = event.pageY;
+                    console.log(mouseX, mouseY, x, y);
                     // Compare the previous capture to the current, they should never be the same unless the animation for app is active and the mousemove event is triggered by the autoscroll.
                     if(x != mouseX
                         || y != mouseY){
@@ -445,7 +446,7 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                         // Switch the headings.
                         row.find('h1').attr('class', '').end().find('h2').attr('class', 'inactive');                                           
                     },        
-                    idle: 5000,
+                    idle: 60000,
                     events: 'mousemove touchstart',
                 });   
             },
