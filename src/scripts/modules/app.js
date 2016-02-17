@@ -360,11 +360,10 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                  * An event handler to track mouse movement, added to prevent false firing when automating the scroll during animation.
                  * @param object | event
                  */
-                $(document).on('mousemove', function(event){
+                $(document).on('mousemove click touchstart', function(event){
                     // Ensure to negate any offset triggered from scrolling.   
                     var x = (event.pageX - window.pageXOffset);
                     var y = event.pageY;
-                    console.log(mouseX, mouseY, x, y);
                     // Compare the previous capture to the current, they should never be the same unless the animation for app is active and the mousemove event is triggered by the autoscroll.
                     if(x != mouseX
                         || y != mouseY){
