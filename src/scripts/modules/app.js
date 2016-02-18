@@ -352,15 +352,14 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                     }
                 });
 
-                var idle = false,
-                mouseX = 0,
+                var mouseX = 0,
                 mouseY = 0;
 
                 /**
                  * An event handler to track mouse movement, added to prevent false firing when automating the scroll during animation.
                  * @param object | event
                  */
-                $(document).on('mousemove click touchstart', function(event){
+                $(document).on('mousemove touchstart', function(event){
                     // Ensure to negate any offset triggered from scrolling.   
                     var x = (event.pageX - window.pageXOffset);
                     var y = event.pageY;
@@ -369,9 +368,9 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                         || y != mouseY){
                         mouseX = x;
                         mouseY = y;   
-                        idle = false; 
                     }else{
-                        idle = true;
+                        // Prevent the jquery.idle plugin from firing if the mouseevent is not legitimate.
+                        event.stopImmediatePropagation();
                     }                
                 });
 
@@ -427,10 +426,6 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                         row.find('h1').attr('class', 'inactive').end().find('h2').attr('class', '');
                     },
                     onActive: function(){ 
-                        console.log(idle);
-                        if(idle){
-                            return;
-                        }
                         try{
                             // If an active item exists, manually trigger the mouseleave event on the item to contract it.                            
                             var prev = self.getItems(false, '.active')[0];
