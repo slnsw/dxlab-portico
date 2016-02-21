@@ -14,7 +14,7 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
 
         var App = {
             // The type of application, reflecting the type of medium it is being applied to. At this stage the only options that exist are web and exh (exhibition).
-            type: 'web', // || exh
+            type: 'exh', // || exh
             // A property to cache DOM elements - rows, and images and snippets.
             cache: {
                 elements: [],
