@@ -13,6 +13,8 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
     (function(w, d){    
 
         var App = {
+            // The type of application, reflecting the type of medium it is being applied to. At this stage the only options that exist are web and exh (exhibition).
+            type: 'web', // || exh
             // A property to cache DOM elements - rows, and images and snippets.
             cache: {
                 elements: [],
@@ -506,8 +508,9 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                             self.state.items.push(id);
                         // Else last item is being expanded.
                         }else{
-                            // If the application is currently being animated, perform the autoscroll if required.
-                            if(self.state.animating){
+                            // If the application is currently being animated or the application is for the web, perform the autoscroll if required.
+                            if(self.state.animating
+                                || self.type === 'web'){
                                 self.trigger('scrollTo', id);
                             }
                         }
