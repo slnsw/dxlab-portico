@@ -13,8 +13,8 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
     (function(w, d){    
 
         var App = {
-            // The type of application, reflecting the type of medium it is being applied to. At this stage the only options that exist are web and exh (exhibition).
-            type: 'exh', // || exh
+            // The type of application, reflecting the type of medium it is being applied to. Refer to the global config object.
+            type: config.type,
             // A property to cache DOM elements - rows, and images and snippets.
             cache: {
                 elements: [],
@@ -361,7 +361,7 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                  * An event handler to track mouse movement, added to prevent false firing when automating the scroll during animation.
                  * @param object | event
                  */
-                $(document).on('mousemove touchstart', function(event){
+                $(document).on('mousemove mousedown touchstart', function(event){
                     // Ensure to negate any offset triggered from scrolling.   
                     var x = (event.pageX - window.pageXOffset);
                     var y = event.pageY;
@@ -371,8 +371,12 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                         mouseX = x;
                         mouseY = y;   
                     }else{
-                        // Prevent the jquery.idle plugin from firing if the mouseevent is not legitimate.
-                        event.stopImmediatePropagation();
+                        // If the application is currently animating, prevent the jquery.idle plugin from firing if the mouseevent is not legitimate. We target the 'mousemove' event type as it's linked to the autoscroll incorrectly triggering, and 
+                        // if performing movement of the mouse it should never be in the same position as previous. A mousedown or touchstart could be if the user is resuming manual control, however the likelihood of it being in the same position is marginal.
+                        if(self.state.animating
+                            && event.type === 'mousemove'){
+                            event.stopImmediatePropagation();
+                        }
                     }                
                 });
 
@@ -443,7 +447,7 @@ define(['require', 'helper.min', 'loader.min', 'jquery', 'libs/jquery.idle/jquer
                         row.find('h1').attr('class', '').end().find('h2').attr('class', 'inactive');                                           
                     },        
                     idle: 60000,
-                    events: 'mousemove touchstart',
+                    events: 'mousemove mousedown touchstart',
                 });   
             },
 
