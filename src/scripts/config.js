@@ -4,5 +4,5 @@
  */
 var config = {
     // web || exh
-    type: 'exh'
+    type: 'web'
 };
